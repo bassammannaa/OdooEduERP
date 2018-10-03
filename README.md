@@ -15,4 +15,4 @@ Thanks.
 
 This module was written to extend the functionality of school to support school management and allow you to get a functionality of school management.
 
-[Contribution guidelines for this project](school/README.md)
+
