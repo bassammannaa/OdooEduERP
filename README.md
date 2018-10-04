@@ -6,13 +6,3 @@ Serpent Consulting Services Pvt Ltd, the Official Odoo partner has here contribu
 
 Help us do better by donating to us and motivating us : http://www.serpentcs.com/page/donate-to-serpentcs
 Thanks.
-
-
-
-## System Modules
-
-* ###School:
-
-This module was written to extend the functionality of school to support school management and allow you to get a functionality of school management.
-
-
