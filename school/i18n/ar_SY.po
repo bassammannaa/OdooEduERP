@@ -106,7 +106,7 @@ msgstr "Academic Year"
 #: model:ir.ui.view,arch_db:school.view_academic_year_form
 #: model:ir.ui.view,arch_db:school.view_academic_year_tree
 msgid "Academic Years"
-msgstr "Academic Years"
+msgstr "السنوات الدراسية"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
@@ -232,7 +232,7 @@ msgstr "Admission In Pending State"
 #: model:ir.ui.view,arch_db:school.view_student_student_search_2
 #: model:ir.ui.view,arch_db:school.view_student_student_tree_2
 msgid "Admission Register"
-msgstr "Admission Register"
+msgstr "تسجيل الطلاب الجدد"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_age
@@ -268,7 +268,7 @@ msgstr "Alumni"
 #. module: school
 #: model:ir.ui.menu,name:school.menu_student_alumni
 msgid "Alumni/Terminate"
-msgstr "Alumni/Terminate"
+msgstr "التخرج أو الفصل"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_school_report_header
@@ -613,12 +613,12 @@ msgstr "Class Teacher :-"
 #: model:ir.actions.act_window,name:school.action_school_standard_form
 #: model:ir.ui.menu,name:school.menu_sub_school_standard_form
 msgid "Classes"
-msgstr "Classes"
+msgstr "الفصول الدراسية"
 
 #. module: school
 #: model:ir.actions.act_window,help:school.action_student_reminder
 msgid "Click to add a new Reminder."
-msgstr "Click to add a new Reminder."
+msgstr "أضغط هنا لإضافه انذار جديد"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_assign_roll_no_form
@@ -1181,7 +1181,7 @@ msgstr "Document Template"
 #: model:ir.ui.view,arch_db:school.view_document_type_form
 #: model:ir.ui.view,arch_db:school.view_student_doctype_tree
 msgid "Document Type"
-msgstr "Document Type"
+msgstr "أنواع الملفات"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_document
@@ -1380,7 +1380,7 @@ msgstr "Enter Description"
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_grade_form
 msgid "Enter GradeName"
-msgstr "Enter GradeName"
+msgstr "أدخل أسم التقييم"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_caste_tree
@@ -1663,7 +1663,7 @@ msgstr "المعلومات العامة"
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_academic_year_form
 msgid "Generate Months"
-msgstr "Generate Months"
+msgstr "استيراد اﻷشهر"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_grade_master_form
@@ -1676,22 +1676,22 @@ msgstr "Generate Months"
 #: model:ir.ui.view,arch_db:school.view_grade_form
 #: model:ir.ui.view,arch_db:school.view_grade_tree
 msgid "Grade"
-msgstr "Grade"
+msgstr "التقويم"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_grade_master_grade_ids
 msgid "Grade Name"
-msgstr "Grade Name"
+msgstr "أسم التقويم"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_grade_form
 msgid "Grade Names"
-msgstr "Grade Names"
+msgstr "أسما التقيمات"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_academic_year_form
 msgid "Grade System"
-msgstr "Grade System"
+msgstr "نظام التقييم"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_teacher_search
@@ -1939,7 +1939,7 @@ msgstr "متابع"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_is_parent
 msgid "Is Parent"
-msgstr "Is Parent"
+msgstr "هل ولي أمر الطالب"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_subject_subject_is_practical
@@ -2390,7 +2390,7 @@ msgstr "Months"
 #: model:ir.ui.view,arch_db:school.mother_tongue_tree_view
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Mother Tongue"
-msgstr "Mother Tongue"
+msgstr "اللغة اﻷساسية"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
@@ -2412,7 +2412,7 @@ msgstr "حركة"
 #: model:ir.ui.menu,name:school.menu_move_standards_form
 #: model:ir.ui.view,arch_db:school.view_move_standards_form
 msgid "Move Classes"
-msgstr "Move Classes"
+msgstr "تحريك الفصول"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_muskoskeletal
@@ -2571,7 +2571,7 @@ msgstr "Notes About Medical.."
 #: model:ir.ui.view,arch_db:school.edit_student_news_form
 #: model:ir.ui.view,arch_db:school.view_student_news_tree
 msgid "Noticeboard"
-msgstr "Noticeboard"
+msgstr "لوحه اعلانات المدرسة"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_notification_type
@@ -2683,12 +2683,12 @@ msgstr "الشركة الأم"
 #. module: school
 #: model:ir.model,name:school.model_school_parent
 msgid "Parent Information"
-msgstr "Parent Information"
+msgstr "معلومات ولي امر الطالب"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_school_parent_form
 msgid "Parent Profile"
-msgstr "Parent Profile"
+msgstr "ملفات أولياء اﻷمور"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_parent_name
@@ -2699,12 +2699,12 @@ msgstr "الاسم الاساسى "
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_parent_id
 msgid "Parent(s)"
-msgstr "Parent(s)"
+msgstr "ولي أمر"
 
 #. module: school
 #: model:ir.model,name:school.model_parent_relation
 msgid "Parent-child relation information"
-msgstr "Parent-child relation information"
+msgstr "علاقه ولي اﻷمر بالطالب"
 
 #. module: school
 #: model:ir.ui.menu,name:school.menu_res_partner_form
@@ -2713,7 +2713,7 @@ msgstr "Parent-child relation information"
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Parents"
-msgstr "Parents"
+msgstr "أولياء الامور"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_school_partner_id
@@ -2876,7 +2876,7 @@ msgstr "العنوان الخاص"
 #. module: school
 #: model:ir.ui.menu,name:school.menu_students_parents
 msgid "Profiles"
-msgstr "Profiles"
+msgstr "ملف الطلاب"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_teacher_form
@@ -2927,7 +2927,7 @@ msgstr "شركة متعلقة"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_stu_parent_id
 msgid "Related Parent"
-msgstr "Related Parent"
+msgstr "ولي اﻷمر"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_partner_id
@@ -2986,7 +2986,7 @@ msgstr "Religion"
 #: model:ir.ui.menu,name:school.menu_cast
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Religion/Caste"
-msgstr "Religion/Caste"
+msgstr "الديانات"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_remark
@@ -3003,17 +3003,17 @@ msgstr "Remarks"
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_reminder_form_2
 msgid "Reminder"
-msgstr "Reminder"
+msgstr "إنذار"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_reminder_form_2
 msgid "Reminder Title"
-msgstr "Reminder Title"
+msgstr "عنوان الانذار"
 
 #. module: school
 #: model:ir.ui.menu,name:school.menu_reminders
 msgid "Reminders"
-msgstr "Reminders"
+msgstr "الانذارات"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_school_report_footer
@@ -3135,7 +3135,7 @@ msgstr "School Configuration"
 #. module: school
 #: model:ir.ui.menu,name:school.menu_school_config_form1
 msgid "School Configurations"
-msgstr "School Configurations"
+msgstr "ضبط المدرسة"
 
 #. module: school
 #: model:ir.model,name:school.model_school_school
@@ -3163,7 +3163,7 @@ msgstr "School Name"
 #. module: school
 #: model:ir.model,name:school.model_school_standard
 msgid "School Standards"
-msgstr "School Standards"
+msgstr "مستويات المدرسة"
 
 #. module: school
 #: model:res.groups,name:school.group_school_student
@@ -3188,12 +3188,12 @@ msgstr "School of Student"
 #. module: school
 #: model:ir.actions.act_window,name:school.action_school_school_form
 msgid "Schools"
-msgstr "Schools"
+msgstr "المدارس"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_parent_search
 msgid "Search Parent"
-msgstr "Search Parent"
+msgstr "البحث عن ولي أمر"
 
 #. module: school
 #: code:addons/school/models/student.py:313
@@ -3450,7 +3450,7 @@ msgstr "Standard for which the teacher                                  responsi
 #: model:ir.ui.view,arch_db:school.view_school_school_form
 #: model:ir.ui.view,arch_db:school.view_subject_subject_form
 msgid "Standards"
-msgstr "Standards"
+msgstr "المستويات"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_academic_year_date_start
@@ -3563,7 +3563,7 @@ msgstr "Student"
 #. module: school
 #: model:ir.actions.act_window,name:school.action_student_alumni
 msgid "Student Alumni"
-msgstr "Student Alumni"
+msgstr "تخرج الطلاب
 
 #. module: school
 #: model:ir.model,name:school.model_student_award
@@ -3618,7 +3618,7 @@ msgstr "Student News"
 #. module: school
 #: model:res.groups,name:school.group_school_parent
 msgid "Student Parent"
-msgstr "Student Parent"
+msgstr "ولي أمر الطالب"
 
 #. module: school
 #: model:ir.model,name:school.model_academic_subject
@@ -3644,7 +3644,7 @@ msgstr "Student Relation Master"
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_reminder_form_2
 msgid "Student Reminder"
-msgstr "Student Reminder"
+msgstr "انذارات الطلاب"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_student_student_form_12
@@ -3653,17 +3653,17 @@ msgstr "Student Reminder"
 #: model:ir.ui.view,arch_db:school.view_school_standard_form
 #: model:ir.ui.view,arch_db:school.view_subject_subject_form
 msgid "Students"
-msgstr "Students"
+msgstr "الطلاب"
 
 #. module: school
 #: model:ir.ui.menu,name:school.menu_student_profile
 msgid "Students Profiles"
-msgstr "Students Profiles"
+msgstr "ملفات الطلاب"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_student_reminder
 msgid "Students Reminder"
-msgstr "Students Reminder"
+msgstr "انذارات الطلاب"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_standard_subject_ids
@@ -3764,27 +3764,27 @@ msgstr "Tax Identification Number. Fill it if the company is subjected to taxes.
 #: model:ir.model.fields,field_description:school.field_school_parent_teacher_id
 #: model:ir.model.fields,field_description:school.field_student_descipline_teacher_id
 msgid "Teacher"
-msgstr "Teacher"
+msgstr "المدرسين"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_teachr_user_grp
 msgid "Teacher Group"
-msgstr "Teacher Group"
+msgstr "هيئه التدريس"
 
 #. module: school
 #: model:ir.model,name:school.model_school_teacher
 msgid "Teacher Information"
-msgstr "Teacher Information"
+msgstr "معلومات المدرس"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_school_teacher_form
 msgid "Teacher Profile"
-msgstr "Teacher Profile"
+msgstr "ملف المدرس"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_teacher_form
 msgid "Teacher's Name"
-msgstr "Teacher's Name"
+msgstr "أسم المدرس"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_subject_subject_teacher_ids
@@ -3792,7 +3792,7 @@ msgstr "Teacher's Name"
 #: model:ir.ui.view,arch_db:school.view_elective_group_form
 #: model:ir.ui.view,arch_db:school.view_subject_subject_form
 msgid "Teachers"
-msgstr "Teachers"
+msgstr "المدرسين"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_school_account_setup_bank_data_done
@@ -4042,7 +4042,7 @@ msgstr "Total Seats"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_standard_total_students
 msgid "Total Students"
-msgstr "Total Students"
+msgstr "اجمالي عدد الطلاب"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_parent_credit
@@ -4281,7 +4281,7 @@ msgstr "Year"
 #. module: school
 #: model:ir.ui.menu,name:school.menu_academic_year_sub_form
 msgid "Years"
-msgstr "Years"
+msgstr "السنوات"
 
 #. module: school
 #: code:addons/school/models/school.py:300
