@@ -11,7 +11,7 @@ Thanks.
 
 ## System Modules
 
-* ### School:
+* ### School Module:
 
 This module was written to extend the functionality of school to support school management and allow you to get a functionality of school management.
 

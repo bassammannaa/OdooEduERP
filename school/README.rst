@@ -1,6 +1,6 @@
-=======
-School
-=======
+=============
+School Module
+=============
 
 This module was written to extend the functionality of school to support school management and allow you to get a functionality of school management.
 
@@ -16,6 +16,8 @@ Configuration
 
 To configure this module, you need to:
 have a school management functionality.
+
+*
 
 Usage
 =====
