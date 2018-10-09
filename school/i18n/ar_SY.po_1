@@ -1,41 +1,35 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* school
+#	* school
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0-20180808\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-07 04:08+0000\n"
-"PO-Revision-Date: 2018-10-08 07:02+0300\n"
+"PO-Revision-Date: 2018-10-07 04:08+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
-"Language: ar_SY\n"
-"X-Generator: Poedit 2.1.1\n"
 
 #. module: school
 #: code:addons/school/models/school.py:525
 #, python-format
-msgid ""
-" Admission date should be less than\n"
+msgid " Admission date should be less than\n"
 "            exit date in previous school!"
-msgstr ""
-" تاريخ التسجيل يجب ان يكون اقل من\n"
-"            التاريخ في المدرسه السابقة!"
+msgstr " Admission date should be less than\n"
+"            exit date in previous school!"
 
 #. module: school
 #: code:addons/school/models/school.py:140
 #, python-format
-msgid ""
-" End of Period date should be greater\n"
+msgid " End of Period date should be greater\n"
 "                                    than Start of Peroid Date!"
-msgstr ""
-" نهاية الفتره يجب ان تكون اكبر من\n"
-"                                    بداية الفتره!"
+msgstr " End of Period date should be greater\n"
+"                                    than Start of Peroid Date!"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_meeting_count
@@ -46,53 +40,53 @@ msgstr "عدد الاجتماعات"
 #. module: school
 #: model:ir.ui.view,arch_db:school.identity_card
 msgid "<strong>BirthDate</strong>"
-msgstr "<strong>تاريخ الميلاد</strong>"
+msgstr "<strong>BirthDate</strong>"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.identity_card
 msgid "<strong>Blood Group</strong>"
-msgstr "<strong>بصمه الدم</strong>"
+msgstr "<strong>Blood Group</strong>"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.identity_card
 msgid "<strong>Division</strong>"
-msgstr "<strong>القسم</strong>"
+msgstr "<strong>Division</strong>"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.identity_card
 msgid "<strong>Medium</strong>"
-msgstr "<strong>لغة المدرسة</strong>"
+msgstr "<strong>Medium</strong>"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.identity_card
 msgid "<strong>Roll No.</strong>"
-msgstr "<strong>رقم الداخلي</strong>"
+msgstr "<strong>Roll No.</strong>"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.identity_card
 msgid "<strong>Standard</strong>"
-msgstr "<strong>المستوس</strong>"
+msgstr "<strong>Standard</strong>"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Acadamic Year"
-msgstr "السنة الدراسية"
+msgstr "Acadamic Year"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_stand_id
 #: model:ir.model.fields,field_description:school.field_school_parent_standard_id
 msgid "Academic Class"
-msgstr "الفصل الدراسي"
+msgstr "Academic Class"
 
 #. module: school
 #: model:ir.model,name:school.model_academic_month
 msgid "Academic Month"
-msgstr "الشهر الدراسي"
+msgstr "Academic Month"
 
 #. module: school
 #: sql_constraint:academic.month:0
 msgid "Academic Month should be unique!"
-msgstr "الشهر الدراسي لابد ان لا يتكرر"
+msgstr "Academic Month should be unique!"
 
 #. module: school
 #: model:ir.model,name:school.model_academic_year
@@ -104,7 +98,7 @@ msgstr "الشهر الدراسي لابد ان لا يتكرر"
 #: model:ir.model.fields,help:school.field_student_student_Acadamic_year
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Academic Year"
-msgstr "السنه الدراسية"
+msgstr "Academic Year"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_academic_year_form
@@ -117,7 +111,7 @@ msgstr "السنوات الدراسية"
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Academic year of Student"
-msgstr "السنة الدراسيه للطالب"
+msgstr "Academic year of Student"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_school_user_ids
@@ -156,7 +150,7 @@ msgstr "الإجراء المطلوب"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_descipline_action_taken
 msgid "Action Taken"
-msgstr "الإجراء الذي تم أخذه"
+msgstr "Action Taken"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_active
@@ -174,14 +168,14 @@ msgstr "الأنشطة"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_target_sales_done
 msgid "Activities Done Target"
-msgstr "الانشطه المستهدفه المكتمله"
+msgstr "Activities Done Target"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_academic_subject_add_sub_id
 #: model:ir.model.fields,field_description:school.field_student_previous_school_add_sub
 #: model:ir.ui.view,arch_db:school.view_school_standard_form
 msgid "Add Subjects"
-msgstr "أضافه ماده دراسية"
+msgstr "Add Subjects"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_parent_form
@@ -203,32 +197,32 @@ msgstr "نوع العنوان"
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Admission Date"
-msgstr "تاريخ التسجيل"
+msgstr "Admission Date"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.student_student_kanban_view
 msgid "Admission Date :"
-msgstr "تاريخ التسجيل :"
+msgstr "Admission Date :"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_search_1
 msgid "Admission In Confirm State"
-msgstr "التسجيل في مرحله الاعتماد"
+msgstr "Admission In Confirm State"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_search_1
 msgid "Admission In Done State"
-msgstr "التسجيل تم اعتماده"
+msgstr "Admission In Done State"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_search_2
 msgid "Admission In Draft State"
-msgstr "التسجيل في مرحله المراجعه"
+msgstr "Admission In Draft State"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_search_1
 msgid "Admission In Pending State"
-msgstr "التسجيل في مرحله الانتظار"
+msgstr "Admission In Pending State"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_student_student_form_2
@@ -243,17 +237,15 @@ msgstr "تسجيل الطلاب الجدد"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_age
 msgid "Age"
-msgstr "السن"
+msgstr "Age"
 
 #. module: school
 #: code:addons/school/models/student.py:71
 #, python-format
-msgid ""
-"Age of student should be greater\n"
+msgid "Age of student should be greater\n"
 "                than 5 years!"
-msgstr ""
-"سن الطالب لابد ان يكون اكبر\n"
-"                من خمسه سنوات"
+msgstr "Age of student should be greater\n"
+"                than 5 years!"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_alias_id
@@ -271,7 +263,7 @@ msgstr "Alias Contact Security"
 #: model:ir.ui.view,arch_db:school.view_student_student_search_1
 #: selection:student.student,state:0
 msgid "Alumni"
-msgstr "التخرج"
+msgstr "Alumni"
 
 #. module: school
 #: model:ir.ui.menu,name:school.menu_student_alumni
@@ -295,17 +287,17 @@ msgstr "مؤرشف"
 #: model:ir.ui.menu,name:school.menu_assign_rollno_form
 #: model:ir.ui.view,arch_db:school.view_assign_roll_no_form
 msgid "Assign Roll Number"
-msgstr "تعيين رقم للطالب"
+msgstr "Assign Roll Number"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_assign_roll_no_form
 msgid "Assigning Roll Number"
-msgstr "تعيين رقم للطالب"
+msgstr "Assigning Roll Number"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_subject_syllabus_syllabus_doc
 msgid "Attach syllabus related to Subject"
-msgstr "إرفاق منهج متعلق بالموضوع"
+msgstr "Attach syllabus related to Subject"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_document_new_datas
@@ -315,27 +307,27 @@ msgstr "المُرفقات"
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_attendance_form
 msgid "Attendance Type"
-msgstr "نوع الحضور"
+msgstr "Attendance Type"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_standard_remaining_seats
 msgid "Available Seats"
-msgstr "المقاعد المتاحة"
+msgstr "Available Seats"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Award Info"
-msgstr "معلومات عن الجائزة"
+msgstr "Award Info"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_award_list
 msgid "Award List"
-msgstr "قائمه الجوائز"
+msgstr "Award List"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_award_name
 msgid "Award Name"
-msgstr "أسم الجائزه"
+msgstr "Award Name"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_bank_account_count
@@ -372,7 +364,7 @@ msgstr "الحسابات المصرفية ذات الصلة لهذه الشرك�
 #: model:ir.model.fields,field_description:school.field_school_parent_bank_ids
 #: model:ir.model.fields,field_description:school.field_student_student_bank_ids
 msgid "Banks"
-msgstr "البنوك"
+msgstr "المصارف"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_barcode
@@ -388,23 +380,23 @@ msgstr "الميلاد"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_date_of_birth
 msgid "BirthDate"
-msgstr "تاريخ الميلاد"
+msgstr "BirthDate"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Birthdate"
-msgstr "تاريخ الميلاد"
+msgstr "Birthdate"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_blood_group
 msgid "Blood Group"
-msgstr "بصمه الدم"
+msgstr "Blood Group"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_blood_pressure
 msgid "Blood Pressure"
-msgstr "ضغط الدم"
+msgstr "Blood Pressure"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_message_bounce
@@ -417,35 +409,35 @@ msgstr "المرتد"
 #: model:ir.ui.view,arch_db:school.view_student_student_search_1
 #: model:ir.ui.view,arch_db:school.view_student_student_search_2
 msgid "By Class"
-msgstr "بواسطه أسم الفصل"
+msgstr "By Class"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_search
 msgid "By Division"
-msgstr "بواسطه اسم القسم"
+msgstr "By Division"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_search_1
 #: model:ir.ui.view,arch_db:school.view_student_student_search_2
 msgid "By Gender"
-msgstr "بواسطه السن"
+msgstr "By Gender"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_search
 msgid "By Medium"
-msgstr "بواسطه لغه المدرسه"
+msgstr "By Medium"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_search
 #: model:ir.ui.view,arch_db:school.view_student_student_search_1
 #: model:ir.ui.view,arch_db:school.view_student_student_search_2
 msgid "By School"
-msgstr "بواسطه اسم المدرسة"
+msgstr "By School"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_search_1
 msgid "By State"
-msgstr "بواسطه الحاله"
+msgstr "By State"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_school_id
@@ -463,7 +455,7 @@ msgstr "إلغاء"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_cardiovascular
 msgid "Cardiovascular"
-msgstr "القلب والأوعية الدموية"
+msgstr "Cardiovascular"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_school_tax_cash_basis_journal_id
@@ -474,31 +466,31 @@ msgstr "تم التطبيق علي عنصر دفتر يوميه النقد"
 #: model:ir.ui.view,arch_db:school.view_student_caste_form
 #: model:ir.ui.view,arch_db:school.view_student_caste_tree
 msgid "Caste Information"
-msgstr "معلومات عن الفريق"
+msgstr "Caste Information"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Certifaicate"
-msgstr "الشهاده"
+msgstr "Certifaicate"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_certificate_certi
 #: model:ir.model.fields,field_description:school.field_student_student_certificate_ids
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Certificate"
-msgstr "الشهاده"
+msgstr "Certificate"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Certificates"
-msgstr "الشهادات"
+msgstr "Certificates"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.school_standard_kanban_view
 #: model:ir.ui.view,arch_db:school.student_reminder_kanban_view
 #: model:ir.ui.view,arch_db:school.student_student_kanban_view
 msgid "Change Color"
-msgstr "تغيير اللون"
+msgstr "Change Color"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_channel_ids
@@ -543,7 +535,7 @@ msgstr "حدد هذا المربع إذا كان جهة الاتصال موظف.
 #. module: school
 #: model:ir.model.fields,help:school.field_subject_subject_is_practical
 msgid "Check this if subject is practical."
-msgstr "تحقق من هذا إذا كان الموضوع عمليًا."
+msgstr "Check this if subject is practical."
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_school_child_ids
@@ -556,7 +548,7 @@ msgstr "الشركات الفرعية"
 #: model:ir.ui.view,arch_db:school.view_school_parent_form
 #: model:ir.ui.view,arch_db:school.view_school_teacher_form
 msgid "Children"
-msgstr "الأطفال"
+msgstr "Children"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_teacher_form
@@ -584,38 +576,38 @@ msgstr "المدينة"
 #: model:ir.ui.view,arch_db:school.view_student_student_search_1
 #: model:ir.ui.view,arch_db:school.view_student_student_search_2
 msgid "Class"
-msgstr "صف دراسي"
+msgstr "Class"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Class Information"
-msgstr "معلومات الفصل"
+msgstr "Class Information"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_class_room
 #: model:ir.ui.menu,name:school.menu_class_room
 msgid "Class Room"
-msgstr "قاعة الدراسة"
+msgstr "Class Room"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.class_room_form_view
 msgid "Class Room Form View"
-msgstr "عرض نموذج غرفة الصف"
+msgstr "Class Room Form View"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.class_room_tree_view
 msgid "Class Room Tree View"
-msgstr "فئة غرفة شجرة الرأي"
+msgstr "Class Room Tree View"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_standard_user_id
 msgid "Class Teacher"
-msgstr "معلم الصف"
+msgstr "Class Teacher"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.school_standard_kanban_view
 msgid "Class Teacher :-"
-msgstr "معلم الصف :-"
+msgstr "Class Teacher :-"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_school_standard_form
@@ -663,12 +655,12 @@ msgstr "الكود"
 #. module: school
 #: model:ir.model.fields,help:school.field_academic_month_code
 msgid "Code of Academic month"
-msgstr "كود شهر السنه الدراسية"
+msgstr "Code of Academic month"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_academic_year_code
 msgid "Code of academic year"
-msgstr "كود السنه الدراسية"
+msgstr "Code of academic year"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_color
@@ -761,17 +753,15 @@ msgstr "العنوان الكامل "
 #. module: school
 #: model:ir.ui.menu,name:school.menu_configuration
 msgid "Configurations"
-msgstr "ضبط النظام"
+msgstr "Configurations"
 
 #. module: school
 #: code:addons/school/models/school.py:624
 #, python-format
-msgid ""
-"Configure expiry date greater than\n"
+msgid "Configure expiry date greater than\n"
 "            current date!"
-msgstr ""
-"ضبط تاريخ الانتهاء اكبر\n"
-"من التاريخ الحالي"
+msgstr "Configure expiry date greater than\n"
+"            current date!"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_teacher_form
@@ -802,7 +792,7 @@ msgstr "عد رمز الدفع المميز"
 #: model:ir.model.fields,help:school.field_school_parent_message_bounce
 #: model:ir.model.fields,help:school.field_student_student_message_bounce
 msgid "Counter of the number of bounced emails for this contact"
-msgstr "عداد لعدد رسائل البريد الإلكتروني المرتدة لهذا الاتصال"
+msgstr "Counter of the number of bounced emails for this contact"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_commercial_partner_country_id
@@ -822,23 +812,23 @@ msgstr "دولة"
 #: model:ir.model.fields,field_description:school.field_student_previous_school_course_id
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Course"
-msgstr "الكورس التعليمي"
+msgstr "Course"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_subject_id
 msgid "Course-Subjects"
-msgstr "الكورس التعليمي - المواضيع"
+msgstr "Course-Subjects"
 
 #. module: school
 #: selection:student.family.contact,rel_name:0
 msgid "Create New Relative Name"
-msgstr "إنشاء علاقه جديده"
+msgstr "Create New Relative Name"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Create or Select Name"
-msgstr "إنشاء أو تحديد الاسم"
+msgstr "Create or Select Name"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_academic_month_create_uid
@@ -922,7 +912,7 @@ msgstr "أنشئ بواسطة"
 #: model:ir.model.fields,field_description:school.field_subject_syllabus_create_date
 #: model:ir.model.fields,field_description:school.field_terminate_reason_create_date
 msgid "Created on"
-msgstr "تم إنشاءه في"
+msgstr "أنشئ في"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_credit_limit
@@ -940,7 +930,7 @@ msgstr "العملة"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_academic_year_current
 msgid "Current"
-msgstr "الحالي"
+msgstr "Current"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_property_payment_term_id
@@ -960,7 +950,7 @@ msgstr "التاريخ"
 #. module: school
 #: model:ir.ui.view,arch_db:school.student_reminder_kanban_view
 msgid "Date :"
-msgstr "التاريخ :"
+msgstr "Date :"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_school_account_opening_date
@@ -986,8 +976,7 @@ msgstr "تاريخ آخر رسالة في هذا السجل."
 #: model:school.school,overdue_msg:school.demo_school_1
 #: model:school.school,overdue_msg:school.demo_school_2
 #: model:school.school,overdue_msg:school.demo_school_3
-msgid ""
-"Dear Sir/Madam,\n"
+msgid "Dear Sir/Madam,\n"
 "\n"
 "Our records indicate that some payments on your account are still due. Please find details below.\n"
 "If the amount has already been paid, please disregard this notice. Otherwise, please forward us the total amount stated below.\n"
@@ -995,8 +984,7 @@ msgid ""
 "\n"
 "Thank you in advance for your cooperation.\n"
 "Best Regards,"
-msgstr ""
-"Dear Sir/Madam,\n"
+msgstr "Dear Sir/Madam,\n"
 "\n"
 "Our records indicate that some payments on your account are still due. Please find details below.\n"
 "If the amount has already been paid, please disregard this notice. Otherwise, please forward us the total amount stated below.\n"
@@ -1009,7 +997,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:school.field_school_school_resource_calendar_id
 #: model:ir.model.fields,field_description:school.field_student_student_resource_calendar_id
 msgid "Default Working Hours"
-msgstr "أوقات العمل الرسمية"
+msgstr "Default Working Hours"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_teacher_resource_calendar_id
@@ -1038,12 +1026,12 @@ msgstr "القسم"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_dermatological
 msgid "Dermatological"
-msgstr "الأمراض الجلدية"
+msgstr "Dermatological"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_student_discipline_line
 msgid "Descipline"
-msgstr "تهذيب"
+msgstr "Descipline"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_academic_month_description
@@ -1078,7 +1066,7 @@ msgstr "Description :"
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Description About Certificate"
-msgstr "وصف عن الشهادة"
+msgstr "Description About Certificate"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_reference_designation
@@ -1086,7 +1074,7 @@ msgstr "وصف عن الشهادة"
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Designation"
-msgstr "تعيين"
+msgstr "Designation"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_academic_month_display_name
@@ -1138,18 +1126,18 @@ msgstr "الاسم المعروض"
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 #: model:ir.ui.view,arch_db:school.view_student_student_search
 msgid "Division"
-msgstr "القسم"
+msgstr "Division"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.school_standard_kanban_view
 msgid "Division :-"
-msgstr "القسم :-"
+msgstr "Division :-"
 
 #. module: school
 #: code:addons/school/models/school.py:293
 #, python-format
 msgid "Division and class should be unique!"
-msgstr "القسم والفصل لابد ان لا يتكرر"
+msgstr "Division and class should be unique!"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_standard_division_form
@@ -1157,32 +1145,32 @@ msgstr "القسم والفصل لابد ان لا يتكرر"
 #: model:ir.ui.view,arch_db:school.view_standard_division_form
 #: model:ir.ui.view,arch_db:school.view_standard_division_tree
 msgid "Divisions"
-msgstr "الأقسام"
+msgstr "Divisions"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Doctor Designation"
-msgstr "تشخيص الطبيب"
+msgstr "Doctor Designation"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Doctor Information"
-msgstr "معلومات الدكتور"
+msgstr "Doctor Information"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_doctor
 msgid "Doctor Name"
-msgstr "أسم الدكتور"
+msgstr "Doctor Name"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Doctor's Contact No"
-msgstr "رقم الاتصال بالطبيب"
+msgstr "Doctor's Contact No"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_school_external_report_layout
 msgid "Document Template"
-msgstr "قالب المستند"
+msgstr "Document Template"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_document_type_form
@@ -1198,12 +1186,12 @@ msgstr "أنواع الملفات"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_document
 msgid "Documents"
-msgstr "مستندات"
+msgstr "Documents"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Does the applicant have any Disabilities?"
-msgstr "هل يوجد لدى المتقدم أي إعاقة؟"
+msgstr "Does the applicant have any Disabilities?"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
@@ -1211,7 +1199,7 @@ msgstr "هل يوجد لدى المتقدم أي إعاقة؟"
 #: model:ir.ui.view,arch_db:school.view_student_student_search_1
 #: selection:student.student,state:0
 msgid "Done"
-msgstr "تم"
+msgstr "Done"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_search_2
@@ -1227,12 +1215,12 @@ msgstr "E-Mail"
 #. module: school
 #: model:ir.ui.menu,name:school.menu_ems
 msgid "EMS"
-msgstr "نظام المدرسة النموذجية"
+msgstr "المدرسة"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_ear
 msgid "Ears"
-msgstr "آذان"
+msgstr "Ears"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.school_standard_kanban_view
@@ -1244,35 +1232,35 @@ msgstr "تحرير"
 #. module: school
 #: model:ir.ui.view,arch_db:school.student_reminder_kanban_view
 msgid "Edit..."
-msgstr "تحرير"
+msgstr "Edit..."
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_parent_partner_share
 #: model:ir.model.fields,help:school.field_student_student_partner_share
 msgid "Either customer (no user), either shared user. Indicated the current partner is a customer without access or with a limited access created for sharing data."
-msgstr "إما العميل (بدون مستخدم) ، سواء كان مشتركًا. أشار إلى أن الشريك الحالي هو عميل بدون وصول أو مع وصول محدود تم إنشاؤه لمشاركة البيانات."
+msgstr "Either customer (no user), either shared user. Indicated the current partner is a customer without access or with a limited access created for sharing data."
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_subject_subject_elective_id
 msgid "Elective"
-msgstr "اختياري"
+msgstr "Elective"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_elective_subject_form
 #: model:ir.ui.view,arch_db:school.view_elective_group_form
 #: model:ir.ui.view,arch_db:school.view_subject_subject_form
 msgid "Elective Group"
-msgstr "المجموعة الاختيارية"
+msgstr "Elective Group"
 
 #. module: school
 #: model:ir.ui.menu,name:school.menu_subject_elective_form
 msgid "Elective Subject(s)"
-msgstr "المواد الاختيارية"
+msgstr "Elective Subject(s)"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_subject_elective_subject_ids
 msgid "Elective Subjects"
-msgstr "المواد الاختيارية"
+msgstr "Elective Subjects"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_email
@@ -1292,18 +1280,18 @@ msgstr "عنوان البريد الإلكتروني"
 #: code:addons/school/models/school.py:672
 #, python-format
 msgid "Email Configuration "
-msgstr "ضبط البريد الإلكتروني "
+msgstr "Email Configuration "
 
 #. module: school
 #: code:addons/school/models/school.py:657
 #, python-format
 msgid "Email Configuration!"
-msgstr "ضبط البريد الإلكتروني "
+msgstr "Email Configuration!"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Email ID"
-msgstr "الاميل"
+msgstr "Email ID"
 
 #. module: school
 #: model:ir.model,name:school.model_mail_template
@@ -1313,25 +1301,25 @@ msgstr "قوالب البريد"
 #. module: school
 #: model:ir.model.fields,help:school.field_student_student_alias_id
 msgid "Email address internally associated with this user. Incoming emails will appear in the user's notifications."
-msgstr "عنوان البريد الإلكتروني المرتبط داخليًا بهذا المستخدم. سوف تظهر رسائل البريد الإلكتروني الواردة في إشعارات المستخدم."
+msgstr "Email address internally associated with this user. Incoming emails will appear in the user's notifications."
 
 #. module: school
 #: code:addons/school/models/school.py:658
 #, python-format
 msgid "Email not defined!"
-msgstr "البريد الإلكتروني غير معرف!"
+msgstr "Email not defined!"
 
 #. module: school
 #: code:addons/school/models/school.py:648
 #, python-format
 msgid "Email not found in users !"
-msgstr "البريد الإلكتروني غير موجود في المستخدمين!"
+msgstr "Email not found in users !"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Emergency Contact Details"
-msgstr "تفاصيل الاتصال في حالات الطوارئ"
+msgstr "Emergency Contact Details"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_employee
@@ -1342,7 +1330,7 @@ msgstr "الموظف"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_employee_id
 msgid "Employee ID"
-msgstr "هوية الموظف"
+msgstr "Employee ID"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_teacher_bank_account_id
@@ -1367,27 +1355,27 @@ msgstr "تاريخ الإنتهاء"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_academic_month_date_stop
 msgid "End of Period"
-msgstr "نهاية الفترة"
+msgstr "End of Period"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_academic_month_date_stop
 msgid "Ending of academic month"
-msgstr "نهاية الشهر الدراسي"
+msgstr "Ending of academic month"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_academic_year_date_stop
 msgid "Ending of academic year"
-msgstr "نهاية العام الدراسي"
+msgstr "Ending of academic year"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_move_standards_form
 msgid "Enter Academic Year"
-msgstr "دخول السنة الدراسية"
+msgstr "Enter Academic Year"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Enter Description"
-msgstr "أدخل الوصف"
+msgstr "Enter Description"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_grade_form
@@ -1398,29 +1386,29 @@ msgstr "أدخل أسم التقييم"
 #: model:ir.ui.view,arch_db:school.view_student_caste_tree
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Enter Name"
-msgstr "أدخل الاسم"
+msgstr "Enter Name"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_student_relation_master_name
 msgid "Enter Relation name"
-msgstr "أدخل اسم العلاقة"
+msgstr "Enter Relation name"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_teacher_address_home_id
 msgid "Enter here the private address of the employee, not the one linked to your company."
-msgstr "أدخل هنا العنوان الخاص للموظف ، وليس الشخص المرتبط بشركتك."
+msgstr "Enter here the private address of the employee, not the one linked to your company."
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Enter or select Relation"
-msgstr "أدخل أو حدد العلاقة"
+msgstr "Enter or select Relation"
 
 #. module: school
 #: code:addons/school/models/student.py:85
 #, python-format
 msgid "Error!"
-msgstr "خطأ!"
+msgstr "Error!"
 
 #. module: school
 #: code:addons/school/models/school.py:93
@@ -1449,11 +1437,9 @@ msgstr "Error! You cannot define overlapping\n"
 #. module: school
 #: code:addons/school/models/school.py:110
 #, python-format
-msgid ""
-"Error! You cannot set two current\n"
+msgid "Error! You cannot set two current\n"
 "            year active!"
-msgstr ""
-"Error! You cannot set two current\n"
+msgstr "Error! You cannot set two current\n"
 "            year active!"
 
 #. module: school
@@ -1465,7 +1451,7 @@ msgstr "المكسب أو الخسارة في سعر صرف دفتر اليوم�
 #: model:ir.model.fields,field_description:school.field_student_previous_school_exit_date
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Exit Date"
-msgstr "تاريخ الخروج"
+msgstr "Exit Date"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_school_expects_chart_of_accounts
@@ -1475,12 +1461,12 @@ msgstr "يتوقع مخطط الحسابات"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_news_date
 msgid "Expiry Date"
-msgstr "تاريخ الانتهاء"
+msgstr "Expiry Date"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_student_news_date
 msgid "Expiry date of the news."
-msgstr "تاريخ انتهاء الخبر."
+msgstr "Expiry date of the news."
 
 #. module: school
 #: model:ir.model.fields,help:school.field_student_student_share
@@ -1490,49 +1476,49 @@ msgstr "مستخدم خارجي بصلاحيات وصول محدودة، أنش�
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Extra Details"
-msgstr "تفاصيل اضافية"
+msgstr "Extra Details"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_eye
 msgid "Eyes"
-msgstr "عيون"
+msgstr "Eyes"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_teacher_form
 #: model:ir.ui.view,arch_db:school.view_school_teacher_tree
 msgid "Faculty"
-msgstr "أكاديمية"
+msgstr "Faculty"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_grade_line_fail
 msgid "Fail"
-msgstr "فشل"
+msgstr "Fail"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Family  Contact Details"
-msgstr "تفاصيل الاتصال بالعائلة"
+msgstr "Family  Contact Details"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_family_con_ids
 msgid "Family Contact Detail"
-msgstr "تفاصيل الاتصال بالعائلة"
+msgstr "Family Contact Detail"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Family Contact Details"
-msgstr "تفاصيل الاتصال بالعائلة"
+msgstr "Family Contact Details"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Family Details"
-msgstr "تفاصيل العائله"
+msgstr "Family Details"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Family Info"
-msgstr "بيانات العائلة"
+msgstr "Family Info"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_school_state_id
@@ -1540,14 +1526,15 @@ msgid "Fed. State"
 msgstr "المحافظة / الولاية"
 
 #. module: school
-#: selection:student.reference,gender:0 selection:student.student,gender:0
+#: selection:student.reference,gender:0
+#: selection:student.student,gender:0
 msgid "Female"
-msgstr "أنثي"
+msgstr "Female"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Field Name"
-msgstr "أسم المجال"
+msgstr "Field Name"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_document_file_name
@@ -1557,7 +1544,7 @@ msgstr "اسم الملف"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_document_file_no
 msgid "File No"
-msgstr "رقم الملف"
+msgstr "File No"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_school_account_setup_fy_data_done
@@ -1567,7 +1554,7 @@ msgstr "تم الانتهاء من اعداد السنه المالية"
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_assign_roll_no_form
 msgid "Finish"
-msgstr "إنهاء"
+msgstr "Finish"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_reference_name
@@ -1575,12 +1562,12 @@ msgstr "إنهاء"
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "First Name"
-msgstr "اﻷسم اﻷول"
+msgstr "First Name"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Firstname"
-msgstr "اﻷسم اﻷول"
+msgstr "Firstname"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_property_account_position_id
@@ -1634,17 +1621,17 @@ msgstr "Format email address \"Name <email@domain>\""
 #: model:ir.model.fields,field_description:school.field_school_parent_email_formatted
 #: model:ir.model.fields,field_description:school.field_student_student_email_formatted
 msgid "Formatted Email"
-msgstr "تنسيق البريد الإلكتروني"
+msgstr "Formatted Email"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_grade_form
 msgid "From Mark"
-msgstr "من درجة"
+msgstr "From Mark"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_grade_line_from_mark
 msgid "From Marks"
-msgstr "من درجة"
+msgstr "From Marks"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_school_income_currency_exchange_account_id
@@ -1738,12 +1725,12 @@ msgstr "له قيود غير مسواة"
 #: model:ir.model.fields,field_description:school.field_student_student_height
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Height"
-msgstr "الارتفاع"
+msgstr "Height"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_student_student_height
 msgid "Hieght in C.M"
-msgstr "الارتفاع بالسم"
+msgstr "Hieght in C.M"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_history_ids
@@ -1754,7 +1741,7 @@ msgstr "السجل"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_action_id
 msgid "Home Action"
-msgstr "العمل المنزلي"
+msgstr "Home Action"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_academic_month_id
@@ -1812,7 +1799,7 @@ msgstr "رقم الهوية"
 #. module: school
 #: model:ir.actions.report,name:school.report_student_student
 msgid "Identity Card"
-msgstr "البطاقة الشخصية"
+msgstr "Identity Card"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_parent_message_unread
@@ -1843,7 +1830,7 @@ msgstr "If opt-out is checked, this contact has refused to receive emails for ma
 #: model:ir.model.fields,help:school.field_school_parent_team_id
 #: model:ir.model.fields,help:school.field_student_student_team_id
 msgid "If set, this sales channel will be used for sales and assignations related to this partner"
-msgstr "في حالة التعيين ، سيتم استخدام قناة المبيعات هذه للمبيعات والتخصيصات المتعلقة بهذا الشريك"
+msgstr "If set, this sales channel will be used for sales and assignations related to this partner"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_student_student_action_id
@@ -1857,13 +1844,11 @@ msgstr "إذا تم تعيين الحقل النشط إلى خطأ، سيسمح 
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_school_lang
-msgid ""
-"If the selected language is loaded in the\n"
+msgid "If the selected language is loaded in the\n"
 "                                system, all documents related to this partner\n"
 "                                will be printed in this language.\n"
 "                                If not, it will be English."
-msgstr ""
-"If the selected language is loaded in the\n"
+msgstr "If the selected language is loaded in the\n"
 "                                system, all documents related to this partner\n"
 "                                will be printed in this language.\n"
 "                                If not, it will be English."
@@ -1872,7 +1857,7 @@ msgstr ""
 #: model:ir.model.fields,help:school.field_school_parent_lang
 #: model:ir.model.fields,help:school.field_student_student_lang
 msgid "If the selected language is loaded in the system, all documents related to this contact will be printed in this language. If not, it will be English."
-msgstr "إذا تم تحميل اللغة المحددة في النظام ، فستتم طباعة كافة المستندات المتعلقة بجهة الاتصال هذه باللغة. إذا لم يكن كذلك ، فستكون الإنجليزية."
+msgstr "If the selected language is loaded in the system, all documents related to this contact will be printed in this language. If not, it will be English."
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_image
@@ -1883,13 +1868,13 @@ msgstr "الصورة"
 #. module: school
 #: model:res.groups,name:school.group_is_admission
 msgid "In Admission"
-msgstr "في القبول"
+msgstr "In Admission"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_industry_id
 #: model:ir.model.fields,field_description:school.field_student_student_industry_id
 msgid "Industry"
-msgstr "صناعة"
+msgstr "Industry"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_school_property_stock_account_input_categ_id
@@ -1920,17 +1905,15 @@ msgstr "مرجع داخلي"
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_parent_form
 msgid "Internal note..."
-msgstr "مذكرة داخلية..."
+msgstr "Internal note..."
 
 #. module: school
 #: code:addons/school/models/school.py:151
 #, python-format
-msgid ""
-"Invalid Months ! Some months overlap\n"
+msgid "Invalid Months ! Some months overlap\n"
 "                                    or the date period is not in the scope\n"
 "                                    of the academic year!"
-msgstr ""
-"Invalid Months ! Some months overlap\n"
+msgstr "Invalid Months ! Some months overlap\n"
 "                                    or the date period is not in the scope\n"
 "                                    of the academic year!"
 
@@ -1951,7 +1934,7 @@ msgstr "الفواتير"
 #: model:ir.model.fields,field_description:school.field_school_teacher_message_is_follower
 #: model:ir.model.fields,field_description:school.field_student_student_message_is_follower
 msgid "Is Follower"
-msgstr " هل متابع"
+msgstr "متابع"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_is_parent
@@ -1961,25 +1944,25 @@ msgstr "هل ولي أمر الطالب"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_subject_subject_is_practical
 msgid "Is Practical"
-msgstr "هل عملي"
+msgstr "Is Practical"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_is_company
 #: model:ir.model.fields,field_description:school.field_student_student_is_company
 msgid "Is a Company"
-msgstr "هل شركة"
+msgstr "هذه شركة"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_customer
 #: model:ir.model.fields,field_description:school.field_student_student_customer
 msgid "Is a Customer"
-msgstr "هل عميل"
+msgstr "هو العميل"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_supplier
 #: model:ir.model.fields,field_description:school.field_student_student_supplier
 msgid "Is a Vendor"
-msgstr "هل بائع"
+msgstr "Is a Vendor"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_school_income_currency_exchange_account_id
@@ -2021,13 +2004,13 @@ msgstr "دفتر اليومية الذي تم فيه ترحيل الإدخال �
 #. module: school
 #: model:ir.model.fields,help:school.field_student_student_password
 msgid "Keep empty if you don't want the user to be able to connect on the system."
-msgstr "تبقى فارغة إذا كنت لا تريد أن يكون المستخدم قادراً على الاتصال على النظام."
+msgstr "Keep empty if you don't want the user to be able to connect on the system."
 
 #. module: school
 #: code:addons/school/models/school.py:673
 #, python-format
 msgid "Kindly,Configure Outgoing Mail Server!"
-msgstr "يرجى ، تكوين خادم البريد الصادر!"
+msgstr "Kindly,Configure Outgoing Mail Server!"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_lang
@@ -2090,7 +2073,7 @@ msgstr "آخر تعديل في"
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Last Name"
-msgstr "اﻷسم اﻷخير"
+msgstr "Last Name"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_academic_month_write_uid
@@ -2202,7 +2185,7 @@ msgstr "آخر اتصال"
 #. module: school
 #: selection:student.family.contact,rel_name:0
 msgid "Link to Existing Student"
-msgstr "الرابط مع طالب اخر"
+msgstr "Link to Existing Student"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_school_fiscalyear_lock_date
@@ -2233,12 +2216,13 @@ msgstr "حساب معدل خسائر سعر الصرف"
 #: code:addons/school/models/school.py:636
 #, python-format
 msgid "Mail Error"
-msgstr "الاميل خطأ"
+msgstr "Mail Error"
 
 #. module: school
-#: selection:student.reference,gender:0 selection:student.student,gender:0
+#: selection:student.reference,gender:0
+#: selection:student.student,gender:0
 msgid "Male"
-msgstr "ذكر"
+msgstr "Male"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_parent_id
@@ -2260,24 +2244,24 @@ msgstr "Maritial Status"
 #. module: school
 #: selection:student.student,maritual_status:0
 msgid "Married"
-msgstr "متزوج"
+msgstr "Married"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_elective_group_form
 #: model:ir.ui.view,arch_db:school.view_subject_subject_form
 msgid "Maximum Marks"
-msgstr "الدرجات العليا"
+msgstr "Maximum Marks"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_academic_subject_maximum_marks
 #: model:ir.model.fields,field_description:school.field_subject_subject_maximum_marks
 msgid "Maximum marks"
-msgstr "الدرجات العليا"
+msgstr "Maximum marks"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Medical"
-msgstr "طبي"
+msgstr "Medical"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_standard_medium_form
@@ -2292,12 +2276,12 @@ msgstr "طبي"
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 #: model:ir.ui.view,arch_db:school.view_student_student_search
 msgid "Medium"
-msgstr "البيئه التعليمية"
+msgstr "متوسط"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.school_standard_kanban_view
 msgid "Medium :-"
-msgstr "البيئه التعليمية :-"
+msgstr "Medium :-"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_image_medium
@@ -2309,7 +2293,7 @@ msgstr "صورة متوسطة الحجم"
 #: model:ir.model.fields,help:school.field_school_parent_image_medium
 #: model:ir.model.fields,help:school.field_student_student_image_medium
 msgid "Medium-sized image of this contact. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
-msgstr "صورة متوسطة الحجم لجهة الاتصال هذه. يتم تغيير حجمه تلقائيًا كصورة 128 × 128 بكسل ، مع الحفاظ على نسبة العرض إلى الارتفاع. استخدم هذا الحقل في طرق عرض النموذج أو بعض طرق عرض ."
+msgstr "Medium-sized image of this contact. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_image_medium
@@ -2346,46 +2330,46 @@ msgstr "الرسائل"
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Middle Name"
-msgstr "اﻷسم اﻷوسط"
+msgstr "Middle Name"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Middlename"
-msgstr "اﻷسم اﻷوسط"
+msgstr "Middlename"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_elective_group_form
 #: model:ir.ui.view,arch_db:school.view_subject_subject_form
 msgid "Minimum Marks"
-msgstr "علامات الكبري"
+msgstr "Minimum Marks"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_academic_subject_minimum_marks
 #: model:ir.model.fields,field_description:school.field_subject_subject_minimum_marks
 msgid "Minimum marks"
-msgstr "علامات الصغري"
+msgstr "Minimum marks"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_mobile
 #: model:ir.model.fields,field_description:school.field_student_student_mobile
 msgid "Mobile"
-msgstr "الموبيل"
+msgstr "الجوال"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_contact_mobile
 msgid "Mobile No"
-msgstr "رقم الموبيل"
+msgstr "Mobile No"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Mobile Number"
-msgstr "رقم الموبيل"
+msgstr "Mobile Number"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_contact_mobile1
 msgid "Mobile no"
-msgstr "رقم الموبيل"
+msgstr "Mobile no"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_academic_month_form
@@ -2395,7 +2379,7 @@ msgstr "رقم الموبيل"
 #: model:ir.ui.view,arch_db:school.view_academic_month_tree
 #: model:ir.ui.view,arch_db:school.view_academic_year_form
 msgid "Months"
-msgstr "اﻷشهر"
+msgstr "Months"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_mother_toungue
@@ -2406,17 +2390,17 @@ msgstr "اﻷشهر"
 #: model:ir.ui.view,arch_db:school.mother_tongue_tree_view
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Mother Tongue"
-msgstr "اللغة الأم"
+msgstr "اللغة اﻷساسية"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Mother Tounge"
-msgstr "اللغة الأم"
+msgstr "Mother Tounge"
 
 #. module: school
 #: model:ir.model,name:school.model_mother_toungue
 msgid "Mother Toungue"
-msgstr "اللغة الأم"
+msgstr "Mother Toungue"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_move_standards_form
@@ -2433,7 +2417,7 @@ msgstr "تحريك الفصول"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_muskoskeletal
 msgid "Musculoskeletal"
-msgstr "الجهاز العضلي الهيكلي"
+msgstr "Musculoskeletal"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_academic_month_name
@@ -2483,17 +2467,17 @@ msgstr "Name :"
 #. module: school
 #: model:ir.model.fields,help:school.field_academic_month_name
 msgid "Name of Academic month"
-msgstr "أسم الشهر الدراسي"
+msgstr "Name of Academic month"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_academic_year_name
 msgid "Name of academic year"
-msgstr "أسم السنة الدراسية"
+msgstr "Name of academic year"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_student_news_user_ids
 msgid "Name to whom this news is related."
-msgstr "الاسم الذي ترتبط به هذه الأخبار."
+msgstr "Name to whom this news is related."
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_country_id
@@ -2503,7 +2487,7 @@ msgstr "الجنسية (البلد)"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_neurological
 msgid "Neurological"
-msgstr "العصبية"
+msgstr "Neurological"
 
 #. module: school
 #: code:addons/school/models/school.py:437
@@ -2514,44 +2498,42 @@ msgstr "العصبية"
 #: code:addons/school/models/student.py:162
 #, python-format
 msgid "New"
-msgstr "جديد"
+msgstr "New"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_hr_student_news_search
 msgid "News"
-msgstr "أخبار"
+msgstr "News"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.edit_student_news_form
 msgid "News / Updates"
-msgstr "الأخبار / التحديثات"
+msgstr "News / Updates"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_activity_date_deadline
 #: model:ir.model.fields,field_description:school.field_student_student_activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "آخر نشاط الموعد النهائي"
+msgstr "Next Activity Deadline"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_activity_summary
 #: model:ir.model.fields,field_description:school.field_student_student_activity_summary
 msgid "Next Activity Summary"
-msgstr "ملخص النشاط التالي"
+msgstr "Next Activity Summary"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_activity_type_id
 #: model:ir.model.fields,field_description:school.field_student_student_activity_type_id
 msgid "Next Activity Type"
-msgstr "نوع النشاط التالي"
+msgstr "Next Activity Type"
 
 #. module: school
 #: code:addons/school/models/school.py:637
 #, python-format
-msgid ""
-"No mail outgoing mail server\n"
+msgid "No mail outgoing mail server\n"
 "                               specified!"
-msgstr ""
-"No mail outgoing mail server\n"
+msgstr "No mail outgoing mail server\n"
 "                               specified!"
 
 #. module: school
@@ -2562,7 +2544,7 @@ msgstr "لا مستخدمين, بما في ذلك المستشارين, يمكن
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_nose_throat
 msgid "Nose & Throat"
-msgstr "الأنف والحنجرة"
+msgstr "Nose & Throat"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_descipline_note
@@ -2581,7 +2563,7 @@ msgstr "ملاحظات"
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Notes About Medical.."
-msgstr "ملاحظات حول الطب .."
+msgstr "Notes About Medical.."
 
 #. module: school
 #: model:ir.actions.act_window,name:school.view_student_news
@@ -2594,7 +2576,7 @@ msgstr "لوحه اعلانات المدرسة"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_notification_type
 msgid "Notification Management"
-msgstr "إدارة الإخطار"
+msgstr "Notification Management"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_message_needaction_counter
@@ -2606,7 +2588,7 @@ msgstr "عدد الإجراءات"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_companies_count
 msgid "Number of Companies"
-msgstr "عدد الشركات"
+msgstr "Number of Companies"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_school_accounts_code_digits
@@ -2683,11 +2665,9 @@ msgstr "رسالة المدفوعات المتأخرة"
 #. module: school
 #: code:addons/school/models/student.py:86
 #, python-format
-msgid ""
-"PID not valid\n"
+msgid "PID not valid\n"
 "                                 so record will not be saved."
-msgstr ""
-"PID not valid\n"
+msgstr "PID not valid\n"
 "                                 so record will not be saved."
 
 #. module: school
@@ -2765,24 +2745,24 @@ msgstr "حدود الدين المستحق"
 #: model:ir.model.fields,field_description:school.field_school_parent_payment_token_ids
 #: model:ir.model.fields,field_description:school.field_student_student_payment_token_ids
 msgid "Payment Tokens"
-msgstr "رموز الدفع"
+msgstr "Payment Tokens"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_history_percentage
 msgid "Percentage"
-msgstr "النسبة المئوية"
+msgstr "Percentage"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_student_student_pid
 msgid "Personal IDentification Number"
-msgstr "رقم التعريف الشخصي"
+msgstr "Personal IDentification Number"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_teacher_form
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Personal Information"
-msgstr "معلومات شخصية"
+msgstr "Personal Information"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_phone
@@ -2793,24 +2773,24 @@ msgstr "معلومات شخصية"
 #: model:ir.model.fields,field_description:school.field_student_student_phone
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Phone"
-msgstr "التليفون"
+msgstr "رقم الهاتف"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_contact_phone
 msgid "Phone No"
-msgstr "رقم التليفون"
+msgstr "Phone No"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_phone_numbers
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Phone Number"
-msgstr "رقم التليفون"
+msgstr "Phone Number"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_contact_phone1
 msgid "Phone no."
-msgstr "رقم التليفون"
+msgstr "Phone no."
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_image
@@ -2831,27 +2811,25 @@ msgstr "Please select class!"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_student_student_notification_type
-msgid ""
-"Policy on how to handle Chatter notifications:\n"
+msgid "Policy on how to handle Chatter notifications:\n"
 "- Emails: notifications are sent to your email\n"
 "- Odoo: notifications appear in your Odoo Inbox"
-msgstr ""
-"Policy on how to handle Chatter notifications:\n"
+msgstr "Policy on how to handle Chatter notifications:\n"
 "- Emails: notifications are sent to your email\n"
 "- Odoo: notifications appear in your Odoo Inbox"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_student_student_alias_contact
-msgid ""
-"Policy to post a message on the document using the mailgateway.\n"
+msgid "Policy to post a message on the document using the mailgateway.\n"
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
 "- followers: only followers of the related document or members of following channels\n"
-msgstr ""
-"Policy to post a message on the document using the mailgateway.\n"
+""
+msgstr "Policy to post a message on the document using the mailgateway.\n"
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
 "- followers: only followers of the related document or members of following channels\n"
+""
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_teacher_form
@@ -2861,7 +2839,7 @@ msgstr "منصب"
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_parent_form
 msgid "Postal Address"
-msgstr "العنوان البريدي"
+msgstr "Postal Address"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_school_bank_account_code_prefix
@@ -2877,18 +2855,18 @@ msgstr "بادئة الحسابات النقدية"
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Previous School"
-msgstr "المدرسة السابقة"
+msgstr "Previous School"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_previous_school_ids
 msgid "Previous School Detail"
-msgstr "تفاصيل المدرسة السابقة"
+msgstr "Previous School Detail"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Previous School Details"
-msgstr "تفاصيل المدرسة السابقة"
+msgstr "Previous School Details"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_address_home_id
@@ -2903,7 +2881,7 @@ msgstr "ملف الطلاب"
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_teacher_form
 msgid "Public Information"
-msgstr "معلومات عامة"
+msgstr "Public Information"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_terminate_reason
@@ -2928,18 +2906,18 @@ msgstr "العملاء"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_reg_code
 msgid "Registration Code"
-msgstr "كود التسجيل"
+msgstr "Registration Code"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Registration No"
-msgstr "رقم التسجيل"
+msgstr "Registration No"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_previous_school_registration_no
 msgid "Registration No."
-msgstr "رقم التسجيل"
+msgstr "Registration No."
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_parent_id
@@ -2959,7 +2937,7 @@ msgstr "الشريك ذا العلاقة"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_family_contact_rel_name
 msgid "Related Student"
-msgstr "علاقة الطالب"
+msgstr "Related Student"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_teacher_form
@@ -2969,7 +2947,7 @@ msgstr "مستخدم مرتبط"
 #. module: school
 #: model:ir.model.fields,help:school.field_academic_month_year_id
 msgid "Related academic year "
-msgstr "علاقه السنه الدراسية "
+msgstr "Related academic year "
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_employee_ids
@@ -2985,22 +2963,22 @@ msgstr "اسم المستخدم ذو الصلة للمورد لإدارة وصو
 #: model:ir.model.fields,field_description:school.field_student_family_contact_relation
 #: model:ir.model.fields,field_description:school.field_student_student_relation
 msgid "Relation"
-msgstr "العلاقة"
+msgstr "Relation"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_parent_relation_name
 msgid "Relation name"
-msgstr "أسم العلاقة"
+msgstr "Relation name"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_relation_id
 msgid "Relation with Child"
-msgstr "العلاقه مع الطالب"
+msgstr "Relation with Child"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_caste_form
 msgid "Religion"
-msgstr "الديانة"
+msgstr "Religion"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_student_cast_form_7
@@ -3014,13 +2992,13 @@ msgstr "الديانات"
 #: model:ir.model.fields,field_description:school.field_student_student_remark
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Remark"
-msgstr "العلامة"
+msgstr "Remark"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Remarks"
-msgstr "العلامات"
+msgstr "Remarks"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_reminder_form_2
@@ -3055,12 +3033,12 @@ msgstr "الموارد"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_respiratory
 msgid "Respiratory"
-msgstr "التنفس"
+msgstr "Respiratory"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_standard_id
 msgid "Responsibility of Academic Class"
-msgstr "ممسئول الفصل"
+msgstr "Responsibility of Academic Class"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_activity_user_id
@@ -3071,28 +3049,28 @@ msgstr "مسئول"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_history_result
 msgid "Result"
-msgstr "النتائج"
+msgstr "Result"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_document_return_date
 msgid "Return Date"
-msgstr "تاريخ الرجوع"
+msgstr "Return Date"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_roll_no
 msgid "Roll No."
-msgstr "الرقم"
+msgstr "Roll No."
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Roll number of Student"
-msgstr "رقم الطالب"
+msgstr "Roll number of Student"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_class_room_number
 #: model:ir.model.fields,field_description:school.field_school_standard_class_room_id
 msgid "Room Number"
-msgstr "رقم الغرفه"
+msgstr "Room Number"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_sinid
@@ -3120,7 +3098,7 @@ msgstr "قنوات البيع"
 #. module: school
 #: model:ir.model.fields,help:school.field_student_student_sale_team_id
 msgid "Sales Channel the user is member of. Used to compute the members of a sales channel through the inverse one2many"
-msgstr "قناة المبيعات التي يكون المستخدم عضوًا فيها. تستخدم لحساب أعضاء قناة المبيعات من خلال علاقه معكوسه"
+msgstr "Sales Channel the user is member of. Used to compute the members of a sales channel through the inverse one2many"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_user_id
@@ -3137,22 +3115,22 @@ msgstr "مسئول المبيعات"
 #: model:ir.ui.view,arch_db:school.view_student_student_search_1
 #: model:ir.ui.view,arch_db:school.view_student_student_search_2
 msgid "School"
-msgstr "المدرسة"
+msgstr "School"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.school_standard_kanban_view
 msgid "School :-"
-msgstr "المدرسة :-"
+msgstr "School :-"
 
 #. module: school
 #: model:res.groups,name:school.group_school_administration
 msgid "School Administrator"
-msgstr "مسئول المدرسة"
+msgstr "School Administrator"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_school_form
 msgid "School Configuration"
-msgstr "ضبط المدرسة"
+msgstr "School Configuration"
 
 #. module: school
 #: model:ir.ui.menu,name:school.menu_school_config_form1
@@ -3165,12 +3143,12 @@ msgstr "ضبط المدرسة"
 #: model:ir.ui.view,arch_db:school.view_school_school_tree
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "School Information"
-msgstr "معلومات المدرسة "
+msgstr "School Information"
 
 #. module: school
 #: model:ir.module.category,name:school.module_category_school
 msgid "School Management"
-msgstr "أدارة المدرسة"
+msgstr "School Management"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_school_com_name
@@ -3180,7 +3158,7 @@ msgstr "أدارة المدرسة"
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "School Name"
-msgstr "أسم المدرسة"
+msgstr "School Name"
 
 #. module: school
 #: model:ir.model,name:school.model_school_standard
@@ -3190,22 +3168,22 @@ msgstr "مستويات المدرسة"
 #. module: school
 #: model:res.groups,name:school.group_school_student
 msgid "School Student"
-msgstr "طالب المدرسة"
+msgstr "School Student"
 
 #. module: school
 #: model:res.groups,name:school.group_school_teacher
 msgid "School Teacher"
-msgstr "مدرس المدرسة"
+msgstr "School Teacher"
 
 #. module: school
 #: model:ir.model,name:school.model_attendance_type
 msgid "School Type"
-msgstr "نوع المدرسة"
+msgstr "School Type"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "School of Student"
-msgstr "مدرسة الطالب"
+msgstr "School of Student"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_school_school_form
@@ -3226,37 +3204,37 @@ msgstr "Seats of class %s are full"
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_reminder_form_2
 msgid "Select Date"
-msgstr "اختار التاريخ"
+msgstr "Select Date"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_standard_form
 msgid "Select Faculty Name"
-msgstr "حدد اسم الكلية"
+msgstr "Select Faculty Name"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Select Maritual Status"
-msgstr "اختر الحالة الاجتماعية"
+msgstr "Select Maritual Status"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_student_family_contact_rel_name
 msgid "Select Name"
-msgstr "اختر الاسم"
+msgstr "Select Name"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_school_form
 msgid "Select Or Create Currency"
-msgstr "حدد أو قم بإنشاء عملة"
+msgstr "Select Or Create Currency"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_student_family_contact_stu_name
 msgid "Select Student From Existing List"
-msgstr "حدد الطالب من القائمة الموجودة"
+msgstr "Select Student From Existing List"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Select or Create Standard"
-msgstr "حدد أو قم بإنشاء مستوي"
+msgstr "Select or Create Standard"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_parent_invoice_warn
@@ -3268,18 +3246,18 @@ msgstr "اختيار الخيار \"تحذير\" سوف يخطر المستخد�
 #: model:ir.model.fields,field_description:school.field_school_parent_self
 #: model:ir.model.fields,field_description:school.field_student_student_self
 msgid "Self"
-msgstr "الذات"
+msgstr "Self"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.act_send_email
 #: model:ir.ui.view,arch_db:school.wiz_send_email_form_view
 msgid "Send Email"
-msgstr "ارسل بريد الكتروني"
+msgstr "Send Email"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.edit_student_news_form
 msgid "Send Mail"
-msgstr "ارسل بريد"
+msgstr "Send Mail"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_academic_year_sequence
@@ -3296,17 +3274,17 @@ msgstr "التسلسل"
 #. module: school
 #: model:ir.model.fields,help:school.field_grade_line_sequence
 msgid "Sequence order of the grade."
-msgstr "ترتيب التسلسل للصف."
+msgstr "Sequence order of the grade."
 
 #. module: school
 #: model:ir.model.fields,help:school.field_academic_year_sequence
 msgid "Sequence order you want to see this year."
-msgstr "ترتيب التسلسل الذي تريد رؤيته هذا العام."
+msgstr "Sequence order you want to see this year."
 
 #. module: school
 #: model:ir.model.fields,help:school.field_academic_year_current
 msgid "Set Active Current Year"
-msgstr "تعيين السنة الحالية النشطة"
+msgstr "Set Active Current Year"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_new_password
@@ -3316,13 +3294,13 @@ msgstr "تعيين كلمة المرور"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_school_account_setup_bar_closed
 msgid "Setup Bar Closed"
-msgstr "شريط الإعداد مغلق"
+msgstr "Setup Bar Closed"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_partner_share
 #: model:ir.model.fields,field_description:school.field_student_student_partner_share
 msgid "Share Partner"
-msgstr "شارك الشريك"
+msgstr "Share Partner"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_share
@@ -3379,7 +3357,7 @@ msgstr "صورة مصغرة"
 #: model:ir.model.fields,help:school.field_school_parent_image_small
 #: model:ir.model.fields,help:school.field_student_student_image_small
 msgid "Small-sized image of this contact. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
-msgstr "صورة صغيرة الحجم لجهة الاتصال هذه. يتم تغيير حجمه تلقائيًا كصورة 64 × 64 بكسل ، مع الحفاظ على نسبة العرض إلى الارتفاع. استخدم هذا الحقل في أي مكان مطلوب صورة صغيرة."
+msgstr "Small-sized image of this contact. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_image_small
@@ -3404,7 +3382,7 @@ msgstr "رقم الضمان الإجتماعي"
 #. module: school
 #: model:ir.model.fields,help:school.field_student_student_new_password
 msgid "Specify a value only when creating a user or if you're changing the user's password, otherwise leave empty. After a change of password, the user has to login again."
-msgstr "حدد قيمة فقط عند إنشاء مستخدم أو في حالة تغيير كلمة مرور المستخدم ، وإلا فاترك الحقل فارغًا. بعد تغيير كلمة المرور ، يجب على المستخدم تسجيل الدخول مرة أخرى."
+msgstr "Specify a value only when creating a user or if you're changing the user's password, otherwise leave empty. After a change of password, the user has to login again."
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_standard_standard_id
@@ -3413,27 +3391,27 @@ msgstr "حدد قيمة فقط عند إنشاء مستخدم أو في حالة
 #: model:ir.ui.view,arch_db:school.view_school_standard_form
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Standard"
-msgstr "المستوي"
+msgstr "Standard"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.student_student_kanban_view
 msgid "Standard :"
-msgstr "المستوي :"
+msgstr "Standard :"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.school_standard_kanban_view
 msgid "Standard :-"
-msgstr "المستوي :-"
+msgstr "Standard :-"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_subject_subject_form
 msgid "Standard Code"
-msgstr "كود المستوي"
+msgstr "Standard Code"
 
 #. module: school
 #: model:ir.model,name:school.model_standard_division
 msgid "Standard Division"
-msgstr "قسم المستوي"
+msgstr "Standard Division"
 
 #. module: school
 #: model:ir.model,name:school.model_standard_standard
@@ -3445,22 +3423,22 @@ msgstr "قسم المستوي"
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_search
 msgid "Standard Information"
-msgstr "معلومات المستوي"
+msgstr "Standard Information"
 
 #. module: school
 #: model:ir.model,name:school.model_standard_medium
 msgid "Standard Medium"
-msgstr "بيئه التعليمية للطالب"
+msgstr "Standard Medium"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_subject_subject_form
 msgid "Standard Name"
-msgstr "أسم الطالب"
+msgstr "Standard Name"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_teacher_standard_id
 msgid "Standard for which the teacher                                  responsible for."
-msgstr "المعيار الذي يكون المعلم                                              مسؤولًا عنه."
+msgstr "Standard for which the teacher                                  responsible for."
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_standard_standard_form
@@ -3484,17 +3462,17 @@ msgstr "تاريخ البدء"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_academic_month_date_start
 msgid "Start of Period"
-msgstr "بداية الفترة"
+msgstr "Start of Period"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_academic_year_date_start
 msgid "Starting date of academic year"
-msgstr "تاريخ بدء العام الدراسي"
+msgstr "Starting date of academic year"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_academic_month_date_start
 msgid "Starting of academic month"
-msgstr "ابتداء من الشهر الدراسي"
+msgstr "Starting of academic month"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_activity_state
@@ -3519,22 +3497,20 @@ msgstr "الحالة "
 #. module: school
 #: model:ir.model.fields,help:school.field_school_parent_activity_state
 #: model:ir.model.fields,help:school.field_student_student_activity_state
-msgid ""
-"Status based on activities\n"
+msgid "Status based on activities\n"
 "Overdue: Due date is already passed\n"
 "Today: Activity date is today\n"
 "Planned: Future activities."
-msgstr ""
-"الحالة على أساس الأنشطة\n"
-"المتأخرة: تاريخ الاستحقاق مرت\n"
-"اليوم: تاريخ النشاط هو اليوم\n"
-"المخطط: الأنشطة المستقبلية."
+msgstr "Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_academic_month_form
 #: model:ir.ui.view,arch_db:school.view_academic_year_form
 msgid "Stop Date"
-msgstr "تاريخ الوقف"
+msgstr "Stop Date"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_street
@@ -3568,7 +3544,7 @@ msgstr "الشارع 2"
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Street2..."
-msgstr "شارع..."
+msgstr "Street2..."
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_award_award_list_id
@@ -3582,42 +3558,42 @@ msgstr "شارع..."
 #: model:ir.model.fields,field_description:school.field_student_reference_reference_id
 #: model:ir.ui.view,arch_db:school.view_student_reminder_form_2
 msgid "Student"
-msgstr "الطالب"
+msgstr "Student"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_student_alumni
 msgid "Student Alumni"
-msgstr "تخرج الطلاب"
+msgstr "تخرج الطلاب
 
 #. module: school
 #: model:ir.model,name:school.model_student_award
 msgid "Student Awards"
-msgstr "جوائز الطلاب"
+msgstr "Student Awards"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_student_code
 msgid "Student Code"
-msgstr "كود طالب"
+msgstr "Student Code"
 
 #. module: school
 #: model:ir.model,name:school.model_student_family_contact
 msgid "Student Family Contact"
-msgstr "طالب الأسرة الاتصال"
+msgstr "Student Family Contact"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_pid
 msgid "Student ID"
-msgstr "رقم الطالب"
+msgstr "Student ID"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.student_student_kanban_view
 msgid "Student ID :"
-msgstr "رقم الطالب :"
+msgstr "Student ID :"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_standard_student_ids
 msgid "Student In Class"
-msgstr "طالب في الفصل"
+msgstr "Student In Class"
 
 #. module: school
 #: model:ir.model,name:school.model_student_student
@@ -3626,18 +3602,18 @@ msgstr "طالب في الفصل"
 #: model:ir.ui.view,arch_db:school.view_student_student_search_1
 #: model:ir.ui.view,arch_db:school.view_student_student_tree_1
 msgid "Student Information"
-msgstr "بيانات الطالب"
+msgstr "Student Information"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_reminder_stu_id
 #: model:ir.model.fields,field_description:school.field_student_student_student_name
 msgid "Student Name"
-msgstr "أسم الطالب"
+msgstr "Student Name"
 
 #. module: school
 #: model:ir.model,name:school.model_student_news
 msgid "Student News"
-msgstr "أخبار الطلاب"
+msgstr "Student News"
 
 #. module: school
 #: model:res.groups,name:school.group_school_parent
@@ -3648,17 +3624,17 @@ msgstr "ولي أمر الطالب"
 #: model:ir.model,name:school.model_academic_subject
 #: model:ir.model,name:school.model_student_previous_school
 msgid "Student Previous School"
-msgstr "مدرسة الطالب السابقة"
+msgstr "Student Previous School"
 
 #. module: school
 #: model:ir.model,name:school.model_student_reference
 msgid "Student Reference"
-msgstr "مرجع الطالب"
+msgstr "Student Reference"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_student_student_reg_code
 msgid "Student Registration Code"
-msgstr "رمز تسجيل الطالب"
+msgstr "Student Registration Code"
 
 #. module: school
 #: model:ir.model,name:school.model_student_relation_master
@@ -3700,7 +3676,7 @@ msgstr "الموضوع"
 #. module: school
 #: model:ir.model.fields,help:school.field_student_news_subject
 msgid "Subject of the news."
-msgstr "عناوين الأخبار"
+msgstr "Subject of the news."
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_subject_subject_form
@@ -3711,18 +3687,18 @@ msgstr "عناوين الأخبار"
 #: model:ir.ui.view,arch_db:school.view_subject_subject_form
 #: model:ir.ui.view,arch_db:school.view_subject_subject_tree
 msgid "Subjects"
-msgstr "المواد التعليمية"
+msgstr "Subjects"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Subjects Details"
-msgstr "تفاصيل المادة التعليمية"
+msgstr "Subjects Details"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_document_submited_date
 msgid "Submitted Date"
-msgstr "تاريخ تقديمه"
+msgstr "Submitted Date"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_child_ids
@@ -3734,31 +3710,31 @@ msgstr "المرؤوسين"
 #: model:ir.model.fields,field_description:school.field_student_student_last
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Surname"
-msgstr "الكنية"
+msgstr "Surname"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_standard_form
 msgid "Syllabs"
-msgstr "المنهج"
+msgstr "Syllabs"
 
 #. module: school
 #: model:ir.model,name:school.model_subject_syllabus
 #: model:ir.model.fields,field_description:school.field_school_standard_syllabus_ids
 #: model:ir.ui.view,arch_db:school.view_school_standard_form
 msgid "Syllabus"
-msgstr "المنهج"
+msgstr "Syllabus"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_subject_syllabus_syllabus_doc
 msgid "Syllabus Doc"
-msgstr "مخطط المنهج"
+msgstr "Syllabus Doc"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_vat
 #: model:ir.model.fields,field_description:school.field_school_school_vat
 #: model:ir.model.fields,field_description:school.field_student_student_vat
 msgid "TIN"
-msgstr "الرقم المدني"
+msgstr "TIN"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_category_id
@@ -3821,27 +3797,27 @@ msgstr "المدرسين"
 #. module: school
 #: model:ir.model.fields,help:school.field_school_school_account_setup_bank_data_done
 msgid "Technical field holding the status of the bank setup step."
-msgstr "المجال الفني يحمل حالة خطوة إعداد البنك."
+msgstr "Technical field holding the status of the bank setup step."
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_school_account_setup_coa_done
 msgid "Technical field holding the status of the chart of account setup step."
-msgstr "المجال الفني يحمل حالة الرسم البياني لخطوة إعداد الحساب."
+msgstr "Technical field holding the status of the chart of account setup step."
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_school_account_setup_company_data_done
 msgid "Technical field holding the status of the company setup step."
-msgstr "المجال الفني عقد حالة خطوة إعداد الشركة."
+msgstr "Technical field holding the status of the company setup step."
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_school_account_setup_fy_data_done
 msgid "Technical field holding the status of the financial year setup step."
-msgstr "المجال الفني عقد حالة خطوة إعداد السنة المالية."
+msgstr "Technical field holding the status of the financial year setup step."
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_school_account_setup_bar_closed
 msgid "Technical field set to True when setup bar has been closed by the user."
-msgstr "تم تعيين الحقل التقني على تم عند إغلاق شريط الإعداد بواسطة المستخدم."
+msgstr "Technical field set to True when setup bar has been closed by the user."
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.school_terminate_reason
@@ -3849,7 +3825,7 @@ msgstr "تم تعيين الحقل التقني على تم عند إغلاق ش
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 #: selection:student.student,state:0
 msgid "Terminate"
-msgstr "الفصل"
+msgstr "Terminate"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.school_terminate_reason
@@ -3859,18 +3835,18 @@ msgstr "Terminate Wizard"
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_search_1
 msgid "Terminated"
-msgstr "تم فصله"
+msgstr "Terminated"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_terminate_wizard
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Termination Reason"
-msgstr "سبب الفصل"
+msgstr "Termination Reason"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_send_email_note
 msgid "Text"
-msgstr "نص"
+msgstr "Text"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_school_chart_template_id
@@ -3885,7 +3861,7 @@ msgstr "الشركة التي يعمل فيها هذا المستخدم"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_is_address_home_a_company
 msgid "The employee adress has a company linked"
-msgstr "عنوان الموظف لديه شركة مرتبطة"
+msgstr "The employee adress has a company linked"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_parent_property_account_position_id
@@ -3901,7 +3877,7 @@ msgstr "The grade will ends to this marks."
 #. module: school
 #: model:ir.model.fields,help:school.field_grade_line_from_mark
 msgid "The grade will starts from this marks."
-msgstr "سوف يبدأ التقدير من هذه العلامات."
+msgstr "The grade will starts from this marks."
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_parent_user_id
@@ -3911,7 +3887,7 @@ msgstr "المستخدم الداخلي المسئول عن التواصل مع 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_school_account_opening_move_id
 msgid "The journal entry containing the initial balance of all this company's accounts."
-msgstr "إدخال دفتر اليومية الذي يحتوي على الرصيد الأولي لجميع حسابات هذه الشركة."
+msgstr "The journal entry containing the initial balance of all this company's accounts."
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_parent_has_unreconciled_entries
@@ -3923,37 +3899,31 @@ msgstr "الشريك لديه حساب مدين و دائن واحد على ال
 #: model:ir.model.fields,help:school.field_school_parent_tz
 #: model:ir.model.fields,help:school.field_student_student_tz
 msgid "The partner's timezone, used to output proper date and time values inside printed reports. It is important to set a value for this field. You should use the same timezone that is otherwise used to pick and render date and time values: your computer's timezone."
-msgstr "المنطقة الزمنية للشريك ، تُستخدم لإخراج قيم التاريخ والوقت المناسبة داخل التقارير المطبوعة. من المهم تعيين قيمة لهذا الحقل. يجب استخدام المنطقة الزمنية نفسها التي يتم استخدامها بخلاف ذلك لتحديد قيم التاريخ والوقت وعرضها: المنطقة الزمنية للكمبيوتر الخاص بك."
+msgstr "The partner's timezone, used to output proper date and time values inside printed reports. It is important to set a value for this field. You should use the same timezone that is otherwise used to pick and render date and time values: your computer's timezone."
 
 #. module: school
 #: code:addons/school/models/student.py:319
 #, python-format
-msgid ""
-"The standard is not defined in\n"
+msgid "The standard is not defined in\n"
 "                                     school"
-msgstr ""
-"لم يتم تعريف المعيار في\n"
-"                                     المدرسة"
+msgstr "The standard is not defined in\n"
+"                                     school"
 
 #. module: school
 #: code:addons/school/models/school.py:97
 #, python-format
-msgid ""
-"The start date of the academic year'\n"
+msgid "The start date of the academic year'\n"
 "                                      should be less than end date."
-msgstr ""
-"تاريخ بدء العام الدراسي\n"
-"                                      يجب أن يكون أقل من تاريخ الانتهاء."
+msgstr "The start date of the academic year'\n"
+"                                      should be less than end date."
 
 #. module: school
 #: code:addons/school/models/student.py:148
 #, python-format
-msgid ""
-"There is no current Academic Year\n"
+msgid "There is no current Academic Year\n"
 "                                    defined!Please contact to Administator!"
-msgstr ""
-"لا يوجد عام أكاديمي حالي\n"
-"                                    يرجى الاتصال على المسؤول!"
+msgstr "There is no current Academic Year\n"
+"                                    defined!Please contact to Administator!"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_parent_property_account_payable_id
@@ -3989,7 +3959,7 @@ msgstr "شرط السداد هذا سيُستخدم بدلاً من الشرط �
 #: model:ir.model.fields,help:school.field_school_parent_property_payment_term_id
 #: model:ir.model.fields,help:school.field_student_student_property_payment_term_id
 msgid "This payment term will be used instead of the default one for sales orders and customer invoices"
-msgstr "سيتم استخدام فترة الدفع هذه بدلاً من المدة الافتراضية لأوامر المبيعات وفواتير العملاء"
+msgstr "This payment term will be used instead of the default one for sales orders and customer invoices"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_parent_property_product_pricelist
@@ -4000,21 +3970,17 @@ msgstr "قائمة الأسعار سوف تستخدم، بدلاً عن الاف
 #. module: school
 #: code:addons/school/models/school.py:24
 #, python-format
-msgid ""
-"This seems not to be valid email.\n"
+msgid "This seems not to be valid email.\n"
 "            Please enter email in correct format!"
-msgstr ""
-"يبدو أن هذا ليس بريدًا إلكترونيًا صالحًا.\n"
-"            الرجاء إدخال البريد الإلكتروني بالتنسيق الصحيح!"
+msgstr "This seems not to be valid email.\n"
+"            Please enter email in correct format!"
 
 #. module: school
 #: model:ir.actions.act_window,help:school.action_student_reminder
-msgid ""
-"This structure is used to create and manage all Remainders\n"
+msgid "This structure is used to create and manage all Remainders\n"
 "            related to students regarding exams, events etc."
-msgstr ""
-"يتم استخدام هذه البنية لإنشاء وإدارة جميع البقايا\n"
-"            ذات صلة بالطلاب فيما يتعلق بالامتحانات والأحداث وما إلى ذلك."
+msgstr "This structure is used to create and manage all Remainders\n"
+"            related to students regarding exams, events etc."
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_tz
@@ -4026,7 +3992,7 @@ msgstr "المنطقة الزمنية"
 #: model:ir.model.fields,field_description:school.field_school_parent_tz_offset
 #: model:ir.model.fields,field_description:school.field_student_student_tz_offset
 msgid "Timezone offset"
-msgstr "موازنة المنطقة الزمنية"
+msgstr "Timezone offset"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_title
@@ -4038,12 +4004,12 @@ msgstr "العنوان"
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_grade_form
 msgid "To Mark"
-msgstr "من درجة"
+msgstr "To Mark"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_grade_line_to_mark
 msgid "To Marks"
-msgstr "الي درجه"
+msgstr "To Marks"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_total_invoiced
@@ -4093,17 +4059,15 @@ msgstr "إجمالي المبلغ الذى يجب عليك دفعه لهذا ا�
 #. module: school
 #: code:addons/school/models/school.py:308
 #, python-format
-msgid ""
-"Total seats should be greater than\n"
+msgid "Total seats should be greater than\n"
 "                0!"
-msgstr ""
-"يجب أن يكون إجمالي المقاعد أكبر من\n"
+msgstr "Total seats should be greater than\n"
 "                0!"
 
 #. module: school
 #: selection:student.student,maritual_status:0
 msgid "Unmarried"
-msgstr "غير متزوج"
+msgstr "Unmarried"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_message_unread
@@ -4123,7 +4087,7 @@ msgstr "عدد الرسائل الجديدة"
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Upload Certi"
-msgstr "تحميل الشهاده"
+msgstr "Upload Certi"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_school_tax_exigibility
@@ -4143,7 +4107,7 @@ msgstr "يستخدم لتسجيل الدخول إلى النظام"
 #. module: school
 #: model:ir.model.fields,help:school.field_school_school_sequence
 msgid "Used to order Companies in the company switcher"
-msgstr "تستخدم لترتيب الشركات في قائمه الشركات"
+msgstr "Used to order Companies in the company switcher"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_parent_type
@@ -4160,24 +4124,24 @@ msgstr "المستخدم"
 #: code:addons/school/models/school.py:647
 #, python-format
 msgid "User Email Configuration!"
-msgstr "ضبط الاميل"
+msgstr "User Email Configuration!"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_partner_id
 #: model:ir.model.fields,field_description:school.field_student_family_contact_user_id
 #: model:ir.model.fields,field_description:school.field_student_student_user_id
 msgid "User ID"
-msgstr "رقم المستخدم"
+msgstr "User ID"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_news_user_ids
 msgid "User News"
-msgstr "أخبار المستخدم"
+msgstr "User News"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_log_ids
 msgid "User log entries"
-msgstr "إدخالات سجل المستخدم"
+msgstr "User log entries"
 
 #. module: school
 #: model:ir.model,name:school.model_res_users
@@ -4213,12 +4177,12 @@ msgstr "رقم التأشيرة"
 #: code:addons/school/models/student.py:318
 #, python-format
 msgid "Warning"
-msgstr "الانذار"
+msgstr "Warning"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_contact_website
 msgid "WebSite"
-msgstr "الويب سيت"
+msgstr "WebSite"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_website
@@ -4247,7 +4211,7 @@ msgstr "سجل تواصل الموقع"
 #: model:ir.model.fields,help:school.field_student_student_contact_website
 #: model:ir.model.fields,help:school.field_student_student_website
 msgid "Website of Partner or Company"
-msgstr "موقع شريك أو شركة"
+msgstr "Website of Partner or Company"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_weight
@@ -4258,17 +4222,17 @@ msgstr "وزن"
 #. module: school
 #: model:ir.model.fields,help:school.field_student_student_weight
 msgid "Weight in K.G"
-msgstr "الوزن في الحضانه"
+msgstr "Weight in K.G"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_subject_subject_weightage
 msgid "WeightAge"
-msgstr "الترجيح"
+msgstr "WeightAge"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_target_sales_won
 msgid "Won in Opportunities Target"
-msgstr "فاز في الفرص المستهدفة"
+msgstr "Won in Opportunities Target"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_address_id
@@ -4289,7 +4253,7 @@ msgstr "مكان العمل"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_mobile_phone
 msgid "Work Mobile"
-msgstr "موبيل العمل"
+msgstr "محمول العمل"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_permit_no
@@ -4312,7 +4276,7 @@ msgstr "ساعات العمل"
 #: model:ir.ui.view,arch_db:school.view_school_standard_form
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Year"
-msgstr "السنة"
+msgstr "Year"
 
 #. module: school
 #: model:ir.ui.menu,name:school.menu_academic_year_sub_form
@@ -4322,34 +4286,28 @@ msgstr "السنوات"
 #. module: school
 #: code:addons/school/models/school.py:300
 #, python-format
-msgid ""
-"You cannot delete this standard\n"
+msgid "You cannot delete this standard\n"
 "                because it has reference with student or subject or\n"
 "                syllabus!"
-msgstr ""
-"لا يمكنك حذف هذا المستوي\n"
-"                لأنه يحتوي على مرجع مع الطالب أو الموضوع أو\n"
-"                المنهج!"
+msgstr "You cannot delete this standard\n"
+"                because it has reference with student or subject or\n"
+"                syllabus!"
 
 #. module: school
 #: code:addons/school/models/school.py:727
 #, python-format
-msgid ""
-"You cannot print report for\n"
+msgid "You cannot print report for\n"
 "                student in unconfirm state!"
-msgstr ""
-"لا يمكنك طباعة تقرير عن\n"
-"                طالب في حالة غير مؤكدة!"
+msgstr "You cannot print report for\n"
+"                student in unconfirm state!"
 
 #. module: school
 #: code:addons/school/models/school.py:522
 #, python-format
-msgid ""
-"Your admission date and exit date\n"
+msgid "Your admission date and exit date\n"
 "            should be less than current date in previous school details!"
-msgstr ""
-"تاريخ القبول وتاريخ الخروج\n"
-"            يجب أن يكون أقل من التاريخ الحالي في تفاصيل المدرسة السابقة!"
+msgstr "Your admission date and exit date\n"
+"            should be less than current date in previous school details!"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_parent_form
@@ -4415,7 +4373,7 @@ msgstr "move.standards"
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_attendance_form
 msgid "name"
-msgstr "اﻷسم"
+msgstr "name"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_academic_year_month_ids
@@ -4471,3 +4429,4 @@ msgstr "subject.elective"
 #: model:ir.model,name:school.model_terminate_reason
 msgid "terminate.reason"
 msgstr "terminate.reason"
+
