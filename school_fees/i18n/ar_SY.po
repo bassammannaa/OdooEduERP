@@ -1,21 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* school_fees
+#	* school_fees
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0-20180808\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-10 04:21+0000\n"
-"PO-Revision-Date: 2018-10-10 07:26+0300\n"
+"POT-Creation-Date: 2018-10-13 03:32+0000\n"
+"PO-Revision-Date: 2018-10-13 03:32+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
-"Language: ar_SY\n"
-"X-Generator: Poedit 2.2\n"
 
 #. module: school_fees
 #: model:ir.model.fields,field_description:school_fees.field_student_payslip_invoice_count
@@ -62,16 +60,14 @@ msgstr "<b>الاجمالي</b>"
 
 #. module: school_fees
 #: model:ir.ui.view,arch_db:school_fees.student_fees_register
-msgid ""
-"<br/>\n"
+msgid "<br/>\n"
 "                                    <br/>\n"
 "                                    <br/>\n"
 "                                    <br/>\n"
 "                                    <b>Principal</b>\n"
 "                                    <br/>\n"
 "                                    <span>Authorized Signature</span>"
-msgstr ""
-"<br/>\n"
+msgstr "<br/>\n"
 "                                    <br/>\n"
 "                                    <br/>\n"
 "                                    <br/>\n"
@@ -81,14 +77,12 @@ msgstr ""
 
 #. module: school_fees
 #: model:ir.ui.view,arch_db:school_fees.student_payslip
-msgid ""
-"<br/><br/><br/><br/><br/><br/><br/>\n"
+msgid "<br/><br/><br/><br/><br/><br/><br/>\n"
 "                            <b>Principal,</b>\n"
 "                            <br/><br/><br/>\n"
 "                            <span style=\"font-family: 'Helvetica';font-size: 16px;\">Authorized Signature</span>\n"
 "                            <br/>"
-msgstr ""
-"<br/><br/><br/><br/><br/><br/><br/>\n"
+msgstr "<br/><br/><br/><br/><br/><br/><br/>\n"
 "                            <b>Principal,</b>\n"
 "                            <br/><br/><br/>\n"
 "                            <span style=\"font-family: 'Helvetica';font-size: 16px;\">التوقيع المعتمد</span>\n"
@@ -149,7 +143,7 @@ msgstr "العمليات الحسابية"
 #: model:ir.model.fields,field_description:school_fees.field_student_fees_register_standard_id
 #: model:ir.model.fields,field_description:school_fees.field_student_payslip_standard_id
 msgid "Class"
-msgstr "Class"
+msgstr "صف دراسي"
 
 #. module: school_fees
 #: model:ir.model.fields,field_description:school_fees.field_student_fees_structure_code
@@ -174,7 +168,8 @@ msgstr "الشركة"
 #: model:ir.ui.view,arch_db:school_fees.view_student_fees_register_search
 #: model:ir.ui.view,arch_db:school_fees.view_student_payslip_form
 #: model:ir.ui.view,arch_db:school_fees.view_student_payslip_search
-#: selection:student.fees.register,state:0 selection:student.payslip,state:0
+#: selection:student.fees.register,state:0
+#: selection:student.payslip,state:0
 msgid "Confirm"
 msgstr "تأكيد"
 
@@ -274,7 +269,8 @@ msgstr "القسم"
 #. module: school_fees
 #: model:ir.ui.view,arch_db:school_fees.view_student_fees_register_search
 #: model:ir.ui.view,arch_db:school_fees.view_student_payslip_search
-#: selection:student.fees.register,state:0 selection:student.payslip,state:0
+#: selection:student.fees.register,state:0
+#: selection:student.payslip,state:0
 msgid "Draft"
 msgstr "مسودة"
 
@@ -301,6 +297,12 @@ msgid "Enter Name"
 msgstr "ادخل الاسم"
 
 #. module: school_fees
+#: code:addons/school_fees/school_fees.py:315
+#, python-format
+msgid "Error !"
+msgstr "Error !"
+
+#. module: school_fees
 #: model:ir.ui.view,arch_db:school_fees.view_student_payslip_form
 msgid "Fee Structure"
 msgstr "وصف الرسوم"
@@ -320,7 +322,7 @@ msgstr "الرسوم"
 #: model:ir.actions.act_window,name:school_fees.action_student_payslip_line_form
 #: model:ir.ui.menu,name:school_fees.menu_student_payslip_line_form
 msgid "Fees Head"
-msgstr "رأس الرسوم"
+msgstr "حساب الرسوم"
 
 #. module: school_fees
 #: model:ir.ui.view,arch_db:school_fees.view_student_payslip_tree
@@ -374,7 +376,7 @@ msgstr "مرجع الفاتوره"
 #: model:ir.ui.view,arch_db:school_fees.view_student_payslip_line_search
 #: model:ir.ui.view,arch_db:school_fees.view_student_payslip_line_tree
 msgid "Fees Structure"
-msgstr "وصف الرسوم"
+msgstr "مجاميع الرسوم"
 
 #. module: school_fees
 #: model:ir.model.fields,field_description:school_fees.field_student_payslip_line_line_from_month
@@ -567,6 +569,7 @@ msgstr "المبلغ المدفوع"
 
 #. module: school_fees
 #: code:addons/school_fees/models/school_fees.py:488
+#: code:addons/school_fees/school_fees.py:414
 #, python-format
 msgid "Pay Fees"
 msgstr "دفع الرسوم"
@@ -619,6 +622,7 @@ msgstr "قيد الانتظار"
 
 #. module: school_fees
 #: code:addons/school_fees/models/school_fees.py:365
+#: code:addons/school_fees/school_fees.py:315
 #, python-format
 msgid "Please define sequence onthe journal related to thisinvoice."
 msgstr "يرجى تحديد التسلسل في الحسابات المتعلقة بهذه الفاتورة."
@@ -672,7 +676,7 @@ msgstr "الفاتوره"
 #. module: school_fees
 #: model:ir.ui.view,arch_db:school_fees.view_student_payslip_form
 msgid "Standard"
-msgstr "المسوي"
+msgstr "المستوي"
 
 #. module: school_fees
 #: model:ir.ui.view,arch_db:school_fees.view_student_payslip_form
@@ -785,11 +789,9 @@ msgstr "الرمز"
 
 #. module: school_fees
 #: sql_constraint:student.fees.structure:0
-msgid ""
-"The code of the Fees Structure must\n"
+msgid "The code of the Fees Structure must\n"
 "                         be unique !"
-msgstr ""
-"The code of the Fees Structure must\n"
+msgstr "The code of the Fees Structure must\n"
 "                         be unique !"
 
 #. module: school_fees
@@ -826,6 +828,12 @@ msgid "Type"
 msgstr "النوع"
 
 #. module: school_fees
+#: code:addons/school_fees/school_fees.py:340
+#, python-format
+msgid "UserError"
+msgstr "UserError"
+
+#. module: school_fees
 #: selection:student.fees.structure.line,type:0
 #: selection:student.payslip.line,type:0
 msgid "Yearly"
@@ -834,22 +842,24 @@ msgstr "سنوي"
 #. module: school_fees
 #: code:addons/school_fees/models/school_fees.py:256
 #, python-format
-msgid ""
-"You can delete record in unconfirm state\n"
+msgid "You can delete record in unconfirm state\n"
 "                only!"
-msgstr ""
-"You can delete record in unconfirm state\n"
+msgstr "You can delete record in unconfirm state\n"
 "                only!"
 
 #. module: school_fees
 #: code:addons/school_fees/models/school_fees.py:566
 #, python-format
-msgid ""
-"You cannot alumni student because\n"
+msgid "You cannot alumni student because\n"
 "                payment of fees of student is remaining!"
-msgstr ""
-"You cannot alumni student because\n"
+msgstr "You cannot alumni student because\n"
 "                payment of fees of student is remaining!"
+
+#. module: school_fees
+#: code:addons/school_fees/school_fees.py:341
+#, python-format
+msgid "You cannot create an invoice on a centralisedjournal. Uncheck the centralised counterpartbox in the related journal from theconfiguration menu."
+msgstr "You cannot create an invoice on a centralisedjournal. Uncheck the centralised counterpartbox in the related journal from theconfiguration menu."
 
 #. module: school_fees
 #: code:addons/school_fees/models/school_fees.py:369
@@ -860,11 +870,9 @@ msgstr "You cannot create an invoice on acentralizedjournal. UnCheck the central
 #. module: school_fees
 #: code:addons/school_fees/wizard/terminate_reason.py:22
 #, python-format
-msgid ""
-"You cannot terminate student because\n"
+msgid "You cannot terminate student because\n"
 "            payment of fees of student is remaining!"
-msgstr ""
-"You cannot terminate student because\n"
+msgstr "You cannot terminate student because\n"
 "            payment of fees of student is remaining!"
 
 #. module: school_fees
@@ -881,3 +889,4 @@ msgstr "report.school_fees.student_payslip"
 #: model:ir.model,name:school_fees.model_terminate_reason
 msgid "terminate.reason"
 msgstr "terminate.reason"
+

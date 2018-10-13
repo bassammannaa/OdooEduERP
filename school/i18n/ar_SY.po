@@ -1,40 +1,34 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* school
+#	* school
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0-20180808\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-07 04:08+0000\n"
-"PO-Revision-Date: 2018-10-08 07:02+0300\n"
+"POT-Creation-Date: 2018-10-13 02:37+0000\n"
+"PO-Revision-Date: 2018-10-13 02:37+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
-"Language: ar_SY\n"
-"X-Generator: Poedit 2.1.1\n"
 
 #. module: school
 #: code:addons/school/models/school.py:525
 #, python-format
-msgid ""
-" Admission date should be less than\n"
+msgid " Admission date should be less than\n"
 "            exit date in previous school!"
-msgstr ""
-" تاريخ التسجيل يجب ان يكون اقل من\n"
+msgstr " تاريخ التسجيل يجب ان يكون اقل من\n"
 "            التاريخ في المدرسه السابقة!"
 
 #. module: school
 #: code:addons/school/models/school.py:140
 #, python-format
-msgid ""
-" End of Period date should be greater\n"
+msgid " End of Period date should be greater\n"
 "                                    than Start of Peroid Date!"
-msgstr ""
-" نهاية الفتره يجب ان تكون اكبر من\n"
+msgstr " نهاية الفتره يجب ان تكون اكبر من\n"
 "                                    بداية الفتره!"
 
 #. module: school
@@ -238,7 +232,7 @@ msgstr "التسجيل في مرحله الانتظار"
 #: model:ir.ui.view,arch_db:school.view_student_student_search_2
 #: model:ir.ui.view,arch_db:school.view_student_student_tree_2
 msgid "Admission Register"
-msgstr "تسجيل الطلاب الجدد"
+msgstr "تسجيل الطلبة الجدد"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_age
@@ -248,11 +242,9 @@ msgstr "السن"
 #. module: school
 #: code:addons/school/models/student.py:71
 #, python-format
-msgid ""
-"Age of student should be greater\n"
+msgid "Age of student should be greater\n"
 "                than 5 years!"
-msgstr ""
-"سن الطالب لابد ان يكون اكبر\n"
+msgstr "سن الطالب لابد ان يكون اكبر\n"
 "                من خمسه سنوات"
 
 #. module: school
@@ -372,7 +364,7 @@ msgstr "الحسابات المصرفية ذات الصلة لهذه الشرك�
 #: model:ir.model.fields,field_description:school.field_school_parent_bank_ids
 #: model:ir.model.fields,field_description:school.field_student_student_bank_ids
 msgid "Banks"
-msgstr "البنوك"
+msgstr "المصارف"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_barcode
@@ -450,7 +442,7 @@ msgstr "بواسطه الحاله"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_school_id
 msgid "Campus"
-msgstr "Campus"
+msgstr "الجامعية"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.school_terminate_reason
@@ -595,7 +587,7 @@ msgstr "معلومات الفصل"
 #: model:ir.actions.act_window,name:school.action_class_room
 #: model:ir.ui.menu,name:school.menu_class_room
 msgid "Class Room"
-msgstr "قاعة الدراسة"
+msgstr "الدورة الدراسية"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.class_room_form_view
@@ -621,7 +613,7 @@ msgstr "معلم الصف :-"
 #: model:ir.actions.act_window,name:school.action_school_standard_form
 #: model:ir.ui.menu,name:school.menu_sub_school_standard_form
 msgid "Classes"
-msgstr "الفصول الدراسية"
+msgstr "الدورة الدراسية"
 
 #. module: school
 #: model:ir.actions.act_window,help:school.action_student_reminder
@@ -632,7 +624,7 @@ msgstr "أضغط هنا لإضافه انذار جديد"
 #: model:ir.ui.view,arch_db:school.view_assign_roll_no_form
 #: model:ir.ui.view,arch_db:school.view_move_standards_form
 msgid "Close"
-msgstr "إقفال"
+msgstr "إغلاق الشاشة"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_coach_id
@@ -766,11 +758,9 @@ msgstr "ضبط النظام"
 #. module: school
 #: code:addons/school/models/school.py:624
 #, python-format
-msgid ""
-"Configure expiry date greater than\n"
+msgid "Configure expiry date greater than\n"
 "            current date!"
-msgstr ""
-"ضبط تاريخ الانتهاء اكبر\n"
+msgstr "ضبط تاريخ الانتهاء اكبر\n"
 "من التاريخ الحالي"
 
 #. module: school
@@ -922,7 +912,7 @@ msgstr "أنشئ بواسطة"
 #: model:ir.model.fields,field_description:school.field_subject_syllabus_create_date
 #: model:ir.model.fields,field_description:school.field_terminate_reason_create_date
 msgid "Created on"
-msgstr "تم إنشاءه في"
+msgstr "أنشئ في"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_credit_limit
@@ -978,32 +968,6 @@ msgstr "تاريخ الميلاد"
 #: model:ir.model.fields,help:school.field_student_student_message_last_post
 msgid "Date of the last message posted on the record."
 msgstr "تاريخ آخر رسالة في هذا السجل."
-
-#. module: school
-#: model:res.company,overdue_msg:school.demo_school_1_res_company
-#: model:res.company,overdue_msg:school.demo_school_2_res_company
-#: model:res.company,overdue_msg:school.demo_school_3_res_company
-#: model:school.school,overdue_msg:school.demo_school_1
-#: model:school.school,overdue_msg:school.demo_school_2
-#: model:school.school,overdue_msg:school.demo_school_3
-msgid ""
-"Dear Sir/Madam,\n"
-"\n"
-"Our records indicate that some payments on your account are still due. Please find details below.\n"
-"If the amount has already been paid, please disregard this notice. Otherwise, please forward us the total amount stated below.\n"
-"If you have any queries regarding your account, Please contact us.\n"
-"\n"
-"Thank you in advance for your cooperation.\n"
-"Best Regards,"
-msgstr ""
-"Dear Sir/Madam,\n"
-"\n"
-"Our records indicate that some payments on your account are still due. Please find details below.\n"
-"If the amount has already been paid, please disregard this notice. Otherwise, please forward us the total amount stated below.\n"
-"If you have any queries regarding your account, Please contact us.\n"
-"\n"
-"Thank you in advance for your cooperation.\n"
-"Best Regards,"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_school_resource_calendar_id
@@ -1267,12 +1231,12 @@ msgstr "المجموعة الاختيارية"
 #. module: school
 #: model:ir.ui.menu,name:school.menu_subject_elective_form
 msgid "Elective Subject(s)"
-msgstr "المواد الاختيارية"
+msgstr "المجموعة الاختيارية"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_subject_elective_subject_ids
 msgid "Elective Subjects"
-msgstr "المواد الاختيارية"
+msgstr "المجموعة الاختيارية"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_email
@@ -1417,6 +1381,12 @@ msgid "Enter or select Relation"
 msgstr "أدخل أو حدد العلاقة"
 
 #. module: school
+#: code:addons/school/wizard/wiz_meeting.py:53
+#, python-format
+msgid "Error !"
+msgstr "Error !"
+
+#. module: school
 #: code:addons/school/models/student.py:85
 #, python-format
 msgid "Error!"
@@ -1449,11 +1419,9 @@ msgstr "Error! You cannot define overlapping\n"
 #. module: school
 #: code:addons/school/models/school.py:110
 #, python-format
-msgid ""
-"Error! You cannot set two current\n"
+msgid "Error! You cannot set two current\n"
 "            year active!"
-msgstr ""
-"Error! You cannot set two current\n"
+msgstr "Error! You cannot set two current\n"
 "            year active!"
 
 #. module: school
@@ -1540,7 +1508,8 @@ msgid "Fed. State"
 msgstr "المحافظة / الولاية"
 
 #. module: school
-#: selection:student.reference,gender:0 selection:student.student,gender:0
+#: selection:student.reference,gender:0
+#: selection:student.student,gender:0
 msgid "Female"
 msgstr "أنثي"
 
@@ -1620,6 +1589,18 @@ msgid "Followers (Partners)"
 msgstr "المتابعون (الشركاء)"
 
 #. module: school
+#: code:addons/school/wizard/wiz_meeting.py:53
+#, python-format
+msgid "Following Student don't haveEmail ID.\n"
+"\n"
+"\n"
+"Meeting cannot be scheduled."
+msgstr "Following Student don't haveEmail ID.\n"
+"\n"
+"\n"
+"Meeting cannot be scheduled."
+
+#. module: school
 #: model:ir.model.fields,help:school.field_school_school_report_footer
 msgid "Footer text displayed at the bottom of all reports."
 msgstr "تذييل النص يعرض في الجزء السفلي من كل التقارير."
@@ -1676,7 +1657,7 @@ msgstr "المعلومات العامة"
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_academic_year_form
 msgid "Generate Months"
-msgstr "استيراد اﻷشهر"
+msgstr "استيراد الشهور"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_grade_master_form
@@ -1689,7 +1670,7 @@ msgstr "استيراد اﻷشهر"
 #: model:ir.ui.view,arch_db:school.view_grade_form
 #: model:ir.ui.view,arch_db:school.view_grade_tree
 msgid "Grade"
-msgstr "التقويم"
+msgstr "الدرجات"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_grade_master_grade_ids
@@ -1699,7 +1680,7 @@ msgstr "أسم التقويم"
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_grade_form
 msgid "Grade Names"
-msgstr "أسما التقيمات"
+msgstr "أسماء التقيمات"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_academic_year_form
@@ -1754,7 +1735,7 @@ msgstr "السجل"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_action_id
 msgid "Home Action"
-msgstr "العمل المنزلي"
+msgstr "Home Action"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_academic_month_id
@@ -1857,13 +1838,11 @@ msgstr "إذا تم تعيين الحقل النشط إلى خطأ، سيسمح 
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_school_lang
-msgid ""
-"If the selected language is loaded in the\n"
+msgid "If the selected language is loaded in the\n"
 "                                system, all documents related to this partner\n"
 "                                will be printed in this language.\n"
 "                                If not, it will be English."
-msgstr ""
-"If the selected language is loaded in the\n"
+msgstr "If the selected language is loaded in the\n"
 "                                system, all documents related to this partner\n"
 "                                will be printed in this language.\n"
 "                                If not, it will be English."
@@ -1872,7 +1851,7 @@ msgstr ""
 #: model:ir.model.fields,help:school.field_school_parent_lang
 #: model:ir.model.fields,help:school.field_student_student_lang
 msgid "If the selected language is loaded in the system, all documents related to this contact will be printed in this language. If not, it will be English."
-msgstr "إذا تم تحميل اللغة المحددة في النظام ، فستتم طباعة كافة المستندات المتعلقة بجهة الاتصال هذه باللغة. إذا لم يكن كذلك ، فستكون الإنجليزية."
+msgstr "If the selected language is loaded in the system, all documents related to this contact will be printed in this language. If not, it will be English."
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_image
@@ -1925,12 +1904,10 @@ msgstr "مذكرة داخلية..."
 #. module: school
 #: code:addons/school/models/school.py:151
 #, python-format
-msgid ""
-"Invalid Months ! Some months overlap\n"
+msgid "Invalid Months ! Some months overlap\n"
 "                                    or the date period is not in the scope\n"
 "                                    of the academic year!"
-msgstr ""
-"Invalid Months ! Some months overlap\n"
+msgstr "Invalid Months ! Some months overlap\n"
 "                                    or the date period is not in the scope\n"
 "                                    of the academic year!"
 
@@ -1951,7 +1928,7 @@ msgstr "الفواتير"
 #: model:ir.model.fields,field_description:school.field_school_teacher_message_is_follower
 #: model:ir.model.fields,field_description:school.field_student_student_message_is_follower
 msgid "Is Follower"
-msgstr " هل متابع"
+msgstr "متابع"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_is_parent
@@ -1967,13 +1944,13 @@ msgstr "هل عملي"
 #: model:ir.model.fields,field_description:school.field_school_parent_is_company
 #: model:ir.model.fields,field_description:school.field_student_student_is_company
 msgid "Is a Company"
-msgstr "هل شركة"
+msgstr "هذه شركة"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_customer
 #: model:ir.model.fields,field_description:school.field_student_student_customer
 msgid "Is a Customer"
-msgstr "هل عميل"
+msgstr "هو العميل"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_supplier
@@ -2005,7 +1982,7 @@ msgstr "المناصب الوظيفية"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_job_id
 msgid "Job Title"
-msgstr "Job Title"
+msgstr "الوصف الوظيفي"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_journal_item_count
@@ -2236,7 +2213,8 @@ msgid "Mail Error"
 msgstr "الاميل خطأ"
 
 #. module: school
-#: selection:student.reference,gender:0 selection:student.student,gender:0
+#: selection:student.reference,gender:0
+#: selection:student.student,gender:0
 msgid "Male"
 msgstr "ذكر"
 
@@ -2292,12 +2270,12 @@ msgstr "طبي"
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 #: model:ir.ui.view,arch_db:school.view_student_student_search
 msgid "Medium"
-msgstr "البيئه التعليمية"
+msgstr "متوسط"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.school_standard_kanban_view
 msgid "Medium :-"
-msgstr "البيئه التعليمية :-"
+msgstr "لغة التدريس :-"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_image_medium
@@ -2309,7 +2287,7 @@ msgstr "صورة متوسطة الحجم"
 #: model:ir.model.fields,help:school.field_school_parent_image_medium
 #: model:ir.model.fields,help:school.field_student_student_image_medium
 msgid "Medium-sized image of this contact. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
-msgstr "صورة متوسطة الحجم لجهة الاتصال هذه. يتم تغيير حجمه تلقائيًا كصورة 128 × 128 بكسل ، مع الحفاظ على نسبة العرض إلى الارتفاع. استخدم هذا الحقل في طرق عرض النموذج أو بعض طرق عرض ."
+msgstr "Medium-sized image of this contact. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_image_medium
@@ -2369,7 +2347,7 @@ msgstr "علامات الصغري"
 #: model:ir.model.fields,field_description:school.field_school_parent_mobile
 #: model:ir.model.fields,field_description:school.field_student_student_mobile
 msgid "Mobile"
-msgstr "الموبيل"
+msgstr "الجوال"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_contact_mobile
@@ -2395,7 +2373,7 @@ msgstr "رقم الموبيل"
 #: model:ir.ui.view,arch_db:school.view_academic_month_tree
 #: model:ir.ui.view,arch_db:school.view_academic_year_form
 msgid "Months"
-msgstr "اﻷشهر"
+msgstr "الشهور الدراسية"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_mother_toungue
@@ -2406,17 +2384,17 @@ msgstr "اﻷشهر"
 #: model:ir.ui.view,arch_db:school.mother_tongue_tree_view
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Mother Tongue"
-msgstr "اللغة الأم"
+msgstr "اللغة الأصلية للطالب"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Mother Tounge"
-msgstr "اللغة الأم"
+msgstr "اللغة الأصلية للطالب"
 
 #. module: school
 #: model:ir.model,name:school.model_mother_toungue
 msgid "Mother Toungue"
-msgstr "اللغة الأم"
+msgstr "اللغة الأصلية للطالب"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_move_standards_form
@@ -2547,11 +2525,9 @@ msgstr "نوع النشاط التالي"
 #. module: school
 #: code:addons/school/models/school.py:637
 #, python-format
-msgid ""
-"No mail outgoing mail server\n"
+msgid "No mail outgoing mail server\n"
 "                               specified!"
-msgstr ""
-"No mail outgoing mail server\n"
+msgstr "No mail outgoing mail server\n"
 "                               specified!"
 
 #. module: school
@@ -2683,11 +2659,9 @@ msgstr "رسالة المدفوعات المتأخرة"
 #. module: school
 #: code:addons/school/models/student.py:86
 #, python-format
-msgid ""
-"PID not valid\n"
+msgid "PID not valid\n"
 "                                 so record will not be saved."
-msgstr ""
-"PID not valid\n"
+msgstr "PID not valid\n"
 "                                 so record will not be saved."
 
 #. module: school
@@ -2733,7 +2707,7 @@ msgstr "علاقه ولي اﻷمر بالطالب"
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Parents"
-msgstr "أولياء الامور"
+msgstr "أولياء اﻷمور"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_school_partner_id
@@ -2793,7 +2767,7 @@ msgstr "معلومات شخصية"
 #: model:ir.model.fields,field_description:school.field_student_student_phone
 #: model:ir.ui.view,arch_db:school.view_student_student_form_2
 msgid "Phone"
-msgstr "التليفون"
+msgstr "رقم الهاتف"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_contact_phone
@@ -2831,27 +2805,25 @@ msgstr "Please select class!"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_student_student_notification_type
-msgid ""
-"Policy on how to handle Chatter notifications:\n"
+msgid "Policy on how to handle Chatter notifications:\n"
 "- Emails: notifications are sent to your email\n"
 "- Odoo: notifications appear in your Odoo Inbox"
-msgstr ""
-"Policy on how to handle Chatter notifications:\n"
+msgstr "Policy on how to handle Chatter notifications:\n"
 "- Emails: notifications are sent to your email\n"
 "- Odoo: notifications appear in your Odoo Inbox"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_student_student_alias_contact
-msgid ""
-"Policy to post a message on the document using the mailgateway.\n"
+msgid "Policy to post a message on the document using the mailgateway.\n"
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
 "- followers: only followers of the related document or members of following channels\n"
-msgstr ""
-"Policy to post a message on the document using the mailgateway.\n"
+""
+msgstr "Policy to post a message on the document using the mailgateway.\n"
 "- everyone: everyone can post\n"
 "- partners: only authenticated partners\n"
 "- followers: only followers of the related document or members of following channels\n"
+""
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_teacher_form
@@ -2898,7 +2870,7 @@ msgstr "العنوان الخاص"
 #. module: school
 #: model:ir.ui.menu,name:school.menu_students_parents
 msgid "Profiles"
-msgstr "ملف الطلاب"
+msgstr "بيانات الطلبة"
 
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_school_teacher_form
@@ -3008,7 +2980,7 @@ msgstr "الديانة"
 #: model:ir.ui.menu,name:school.menu_cast
 #: model:ir.ui.view,arch_db:school.view_student_student_form_1
 msgid "Religion/Caste"
-msgstr "الديانات"
+msgstr "ديانات الطلبة"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_remark
@@ -3379,7 +3351,7 @@ msgstr "صورة مصغرة"
 #: model:ir.model.fields,help:school.field_school_parent_image_small
 #: model:ir.model.fields,help:school.field_student_student_image_small
 msgid "Small-sized image of this contact. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
-msgstr "صورة صغيرة الحجم لجهة الاتصال هذه. يتم تغيير حجمه تلقائيًا كصورة 64 × 64 بكسل ، مع الحفاظ على نسبة العرض إلى الارتفاع. استخدم هذا الحقل في أي مكان مطلوب صورة صغيرة."
+msgstr "Small-sized image of this contact. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_image_small
@@ -3404,7 +3376,7 @@ msgstr "رقم الضمان الإجتماعي"
 #. module: school
 #: model:ir.model.fields,help:school.field_student_student_new_password
 msgid "Specify a value only when creating a user or if you're changing the user's password, otherwise leave empty. After a change of password, the user has to login again."
-msgstr "حدد قيمة فقط عند إنشاء مستخدم أو في حالة تغيير كلمة مرور المستخدم ، وإلا فاترك الحقل فارغًا. بعد تغيير كلمة المرور ، يجب على المستخدم تسجيل الدخول مرة أخرى."
+msgstr "Specify a value only when creating a user or if you're changing the user's password, otherwise leave empty. After a change of password, the user has to login again."
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_standard_standard_id
@@ -3472,7 +3444,7 @@ msgstr "المعيار الذي يكون المعلم                           
 #: model:ir.ui.view,arch_db:school.view_school_school_form
 #: model:ir.ui.view,arch_db:school.view_subject_subject_form
 msgid "Standards"
-msgstr "المستويات"
+msgstr "المستويات التعليمية"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_academic_year_date_start
@@ -3519,13 +3491,11 @@ msgstr "الحالة "
 #. module: school
 #: model:ir.model.fields,help:school.field_school_parent_activity_state
 #: model:ir.model.fields,help:school.field_student_student_activity_state
-msgid ""
-"Status based on activities\n"
+msgid "Status based on activities\n"
 "Overdue: Due date is already passed\n"
 "Today: Activity date is today\n"
 "Planned: Future activities."
-msgstr ""
-"الحالة على أساس الأنشطة\n"
+msgstr "الحالة على أساس الأنشطة\n"
 "المتأخرة: تاريخ الاستحقاق مرت\n"
 "اليوم: تاريخ النشاط هو اليوم\n"
 "المخطط: الأنشطة المستقبلية."
@@ -3587,12 +3557,12 @@ msgstr "الطالب"
 #. module: school
 #: model:ir.actions.act_window,name:school.action_student_alumni
 msgid "Student Alumni"
-msgstr "تخرج الطلاب"
+msgstr "تخرج الطلبة"
 
 #. module: school
 #: model:ir.model,name:school.model_student_award
 msgid "Student Awards"
-msgstr "جوائز الطلاب"
+msgstr "جوائز الطلبة"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_student_code
@@ -3637,7 +3607,7 @@ msgstr "أسم الطالب"
 #. module: school
 #: model:ir.model,name:school.model_student_news
 msgid "Student News"
-msgstr "أخبار الطلاب"
+msgstr "أخبار الطلبة"
 
 #. module: school
 #: model:res.groups,name:school.group_school_parent
@@ -3668,7 +3638,7 @@ msgstr "Student Relation Master"
 #. module: school
 #: model:ir.ui.view,arch_db:school.view_student_reminder_form_2
 msgid "Student Reminder"
-msgstr "انذارات الطلاب"
+msgstr "انذارات الطلبة"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_student_student_form_12
@@ -3677,17 +3647,17 @@ msgstr "انذارات الطلاب"
 #: model:ir.ui.view,arch_db:school.view_school_standard_form
 #: model:ir.ui.view,arch_db:school.view_subject_subject_form
 msgid "Students"
-msgstr "الطلاب"
+msgstr "الطلبة"
 
 #. module: school
 #: model:ir.ui.menu,name:school.menu_student_profile
 msgid "Students Profiles"
-msgstr "ملفات الطلاب"
+msgstr "بيانات الطلبة"
 
 #. module: school
 #: model:ir.actions.act_window,name:school.action_student_reminder
 msgid "Students Reminder"
-msgstr "انذارات الطلاب"
+msgstr "انذارات الطلبة"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_standard_subject_ids
@@ -3758,7 +3728,7 @@ msgstr "مخطط المنهج"
 #: model:ir.model.fields,field_description:school.field_school_school_vat
 #: model:ir.model.fields,field_description:school.field_student_student_vat
 msgid "TIN"
-msgstr "الرقم المدني"
+msgstr "TIN"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_category_id
@@ -3923,36 +3893,30 @@ msgstr "الشريك لديه حساب مدين و دائن واحد على ال
 #: model:ir.model.fields,help:school.field_school_parent_tz
 #: model:ir.model.fields,help:school.field_student_student_tz
 msgid "The partner's timezone, used to output proper date and time values inside printed reports. It is important to set a value for this field. You should use the same timezone that is otherwise used to pick and render date and time values: your computer's timezone."
-msgstr "المنطقة الزمنية للشريك ، تُستخدم لإخراج قيم التاريخ والوقت المناسبة داخل التقارير المطبوعة. من المهم تعيين قيمة لهذا الحقل. يجب استخدام المنطقة الزمنية نفسها التي يتم استخدامها بخلاف ذلك لتحديد قيم التاريخ والوقت وعرضها: المنطقة الزمنية للكمبيوتر الخاص بك."
+msgstr "The partner's timezone, used to output proper date and time values inside printed reports. It is important to set a value for this field. You should use the same timezone that is otherwise used to pick and render date and time values: your computer's timezone."
 
 #. module: school
 #: code:addons/school/models/student.py:319
 #, python-format
-msgid ""
-"The standard is not defined in\n"
+msgid "The standard is not defined in\n"
 "                                     school"
-msgstr ""
-"لم يتم تعريف المعيار في\n"
+msgstr "لم يتم تعريف المعيار في\n"
 "                                     المدرسة"
 
 #. module: school
 #: code:addons/school/models/school.py:97
 #, python-format
-msgid ""
-"The start date of the academic year'\n"
+msgid "The start date of the academic year'\n"
 "                                      should be less than end date."
-msgstr ""
-"تاريخ بدء العام الدراسي\n"
+msgstr "تاريخ بدء العام الدراسي\n"
 "                                      يجب أن يكون أقل من تاريخ الانتهاء."
 
 #. module: school
 #: code:addons/school/models/student.py:148
 #, python-format
-msgid ""
-"There is no current Academic Year\n"
+msgid "There is no current Academic Year\n"
 "                                    defined!Please contact to Administator!"
-msgstr ""
-"لا يوجد عام أكاديمي حالي\n"
+msgstr "لا يوجد عام أكاديمي حالي\n"
 "                                    يرجى الاتصال على المسؤول!"
 
 #. module: school
@@ -4000,21 +3964,17 @@ msgstr "قائمة الأسعار سوف تستخدم، بدلاً عن الاف
 #. module: school
 #: code:addons/school/models/school.py:24
 #, python-format
-msgid ""
-"This seems not to be valid email.\n"
+msgid "This seems not to be valid email.\n"
 "            Please enter email in correct format!"
-msgstr ""
-"يبدو أن هذا ليس بريدًا إلكترونيًا صالحًا.\n"
+msgstr "يبدو أن هذا ليس بريدًا إلكترونيًا صالحًا.\n"
 "            الرجاء إدخال البريد الإلكتروني بالتنسيق الصحيح!"
 
 #. module: school
 #: model:ir.actions.act_window,help:school.action_student_reminder
-msgid ""
-"This structure is used to create and manage all Remainders\n"
+msgid "This structure is used to create and manage all Remainders\n"
 "            related to students regarding exams, events etc."
-msgstr ""
-"يتم استخدام هذه البنية لإنشاء وإدارة جميع البقايا\n"
-"            ذات صلة بالطلاب فيما يتعلق بالامتحانات والأحداث وما إلى ذلك."
+msgstr "يتم استخدام هذه البنية لإنشاء وإدارة جميع البقايا\n"
+"            ذات صلة بالطلبة فيما يتعلق بالامتحانات والأحداث وما إلى ذلك."
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_tz
@@ -4026,7 +3986,7 @@ msgstr "المنطقة الزمنية"
 #: model:ir.model.fields,field_description:school.field_school_parent_tz_offset
 #: model:ir.model.fields,field_description:school.field_student_student_tz_offset
 msgid "Timezone offset"
-msgstr "موازنة المنطقة الزمنية"
+msgstr "Timezone offset"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_parent_title
@@ -4071,12 +4031,12 @@ msgstr "الإجمالي المدين"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_standard_capacity
 msgid "Total Seats"
-msgstr "Total Seats"
+msgstr "إجمالي المقاعد"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_standard_total_students
 msgid "Total Students"
-msgstr "اجمالي عدد الطلاب"
+msgstr "اجمالي عدد الطلبة"
 
 #. module: school
 #: model:ir.model.fields,help:school.field_school_parent_credit
@@ -4093,11 +4053,9 @@ msgstr "إجمالي المبلغ الذى يجب عليك دفعه لهذا ا�
 #. module: school
 #: code:addons/school/models/school.py:308
 #, python-format
-msgid ""
-"Total seats should be greater than\n"
+msgid "Total seats should be greater than\n"
 "                0!"
-msgstr ""
-"يجب أن يكون إجمالي المقاعد أكبر من\n"
+msgstr "يجب أن يكون إجمالي المقاعد أكبر من\n"
 "                0!"
 
 #. module: school
@@ -4247,7 +4205,7 @@ msgstr "سجل تواصل الموقع"
 #: model:ir.model.fields,help:school.field_student_student_contact_website
 #: model:ir.model.fields,help:school.field_student_student_website
 msgid "Website of Partner or Company"
-msgstr "موقع شريك أو شركة"
+msgstr "Website of Partner or Company"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_student_student_weight
@@ -4289,7 +4247,7 @@ msgstr "مكان العمل"
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_mobile_phone
 msgid "Work Mobile"
-msgstr "موبيل العمل"
+msgstr "محمول العمل"
 
 #. module: school
 #: model:ir.model.fields,field_description:school.field_school_teacher_permit_no
@@ -4317,38 +4275,32 @@ msgstr "السنة"
 #. module: school
 #: model:ir.ui.menu,name:school.menu_academic_year_sub_form
 msgid "Years"
-msgstr "السنوات"
+msgstr "السنوات الدراسية"
 
 #. module: school
 #: code:addons/school/models/school.py:300
 #, python-format
-msgid ""
-"You cannot delete this standard\n"
+msgid "You cannot delete this standard\n"
 "                because it has reference with student or subject or\n"
 "                syllabus!"
-msgstr ""
-"لا يمكنك حذف هذا المستوي\n"
+msgstr "لا يمكنك حذف هذا المستوي\n"
 "                لأنه يحتوي على مرجع مع الطالب أو الموضوع أو\n"
 "                المنهج!"
 
 #. module: school
 #: code:addons/school/models/school.py:727
 #, python-format
-msgid ""
-"You cannot print report for\n"
+msgid "You cannot print report for\n"
 "                student in unconfirm state!"
-msgstr ""
-"لا يمكنك طباعة تقرير عن\n"
+msgstr "لا يمكنك طباعة تقرير عن\n"
 "                طالب في حالة غير مؤكدة!"
 
 #. module: school
 #: code:addons/school/models/school.py:522
 #, python-format
-msgid ""
-"Your admission date and exit date\n"
+msgid "Your admission date and exit date\n"
 "            should be less than current date in previous school details!"
-msgstr ""
-"تاريخ القبول وتاريخ الخروج\n"
+msgstr "تاريخ القبول وتاريخ الخروج\n"
 "            يجب أن يكون أقل من التاريخ الحالي في تفاصيل المدرسة السابقة!"
 
 #. module: school
@@ -4471,3 +4423,4 @@ msgstr "subject.elective"
 #: model:ir.model,name:school.model_terminate_reason
 msgid "terminate.reason"
 msgstr "terminate.reason"
+
